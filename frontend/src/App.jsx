@@ -10,8 +10,3 @@ function App() {
 }
 
 export default App
-
-// Kilder
-// https://react-leaflet.js.org/docs/start-installation/
-// https://react-leaflet.js.org/docs/start-setup/
-// https://leafletjs.com/examples/quick-start/
