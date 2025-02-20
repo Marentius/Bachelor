@@ -1,4 +1,3 @@
-
 package no.europris.backend.service;
 
 import org.springframework.context.annotation.Configuration;
@@ -39,10 +38,7 @@ public class WebSocket implements WebSocketMessageBrokerConfigurer {
         // Oppretter hovedendepunktet for WebSocket-tilkoblinger
         registry.addEndpoint("/ws-receipts")
                 // Tillater kun tilkoblinger fra React-applikasjonen på localhost:5173
-                .setAllowedOrigins("http://localhost:5173")
-                // Legger til SockJS-støtte for bedre kompatibilitet
-                // SockJS er en fallback hvis ren WebSocket ikke støttes
-                .withSockJS();
+                .setAllowedOrigins("http://localhost:5173");
     }
 }
 
