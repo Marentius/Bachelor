@@ -38,7 +38,7 @@ public class WebSocket implements WebSocketMessageBrokerConfigurer {
         // Oppretter hovedendepunktet for WebSocket-tilkoblinger
         registry.addEndpoint("/ws-receipts")
                 // Tillater kun tilkoblinger fra React-applikasjonen på localhost:5173
-                .setAllowedOrigins("http://localhost:5173");
+                .setAllowedOrigins("http://localhost:5173, http://localhost:3000");
     }
 }
 
