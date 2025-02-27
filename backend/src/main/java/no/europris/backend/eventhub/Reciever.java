@@ -127,6 +127,7 @@ public class Reciever {
  * Kilder:
  * https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-java-get-started-send?tabs=passwordless%2Croles-azure-portal
  * https://learn.microsoft.com/en-us/azure/developer/java/spring-framework/configure-spring-cloud-stream-binder-java-app-azure-event-hub?toc=%2Fazure%2Fevent-hubs%2FTOC.json
+ * https://learn.microsoft.com/en-us/java/api/com.azure.messaging.eventhubs.eventhubconsumerclient?view=azure-java-stable
  * https://medium.com/@salvipriya97/jsonnode-explained-with-examples-d0c05324f61d
  * https://www.baeldung.com/jackson-json-node-tree-model
  */
