@@ -14,7 +14,8 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 // Denne klassen er ansvarlig for å motta events fra Azure Event Hub og videresende dem til WebSocket
-@Component // Gjør at Spring Boot automatisk oppretter en instans av denne klassen
+
+// Gjør at Spring Boot automatisk oppretter en instans av denne klassen
 @EnableScheduling // Aktiverer scheduling-funksjonalitet
 public class Reciever {
     // Henter connection string fra application.properties
