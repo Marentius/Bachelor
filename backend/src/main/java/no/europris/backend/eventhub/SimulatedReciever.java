@@ -1,11 +1,13 @@
 package no.europris.backend.eventhub;
 
+import java.time.LocalTime;
+import java.util.Random;
+
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
@@ -26,9 +28,18 @@ public class SimulatedReciever {
     }
 
     private void pollEvents() {
+        LocalTime time = LocalTime.now();
+        Random random = new Random();
         ObjectNode event = objectMapper.createObjectNode();
-        event.put("StoreNum", 546);
-        System.out.println(event);
+        event.put("uniqueReceiptId", time.toString());
+        event.put("storeNo", random.nextInt(400));
+        event.put("numberOfDifferentItems", random.nextInt(10));
+        event.put("quantityOfItems", random.nextInt(10));
+        event.put("receiptTotalIncVat", random.nextInt(1100));
+        event.put("transDateTime", time.toString());
+        event.put("saleSizeCategory", random.nextInt(4));
+        System.out.println(event.getNodeType());
+        System.out.println(event.getClass());
         messagingTemplate.convertAndSend("/topic/receipts", event);
     }
 
