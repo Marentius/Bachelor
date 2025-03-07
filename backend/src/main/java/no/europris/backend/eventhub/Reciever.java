@@ -2,20 +2,24 @@ package no.europris.backend.eventhub;
 
 import com.azure.messaging.eventhubs.*;
 import com.azure.messaging.eventhubs.models.EventPosition;
+
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.stereotype.Component;
+import org.springframework.scheduling.annotation.Scheduled;
+import org.springframework.scheduling.annotation.EnableScheduling;
+
 import jakarta.annotation.PostConstruct;
+
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import org.springframework.scheduling.annotation.Scheduled;
-import org.springframework.scheduling.annotation.EnableScheduling;
 
 // Denne klassen er ansvarlig for å motta events fra Azure Event Hub og videresende dem til WebSocket
 
 // Gjør at Spring Boot automatisk oppretter en instans av denne klassen
+@Component
 @EnableScheduling // Aktiverer scheduling-funksjonalitet
 public class Reciever {
     // Henter connection string fra application.properties
@@ -91,6 +95,7 @@ public class Reciever {
             // etterkant
             if (jsonNode.get("receiptTotalIncVat").asDouble() >= 300
                     && jsonNode.get("receiptTotalIncVat").asDouble() < 800) {
+            //JsonNode er en skrivebeskyttet klasse. Det vil si at vi kan lese fra den, men ikke skrive til den. For å kunne skrive til den må vi type-caste den til ObjectNode.
                 ((ObjectNode) jsonNode).put("saleSizeCategory", 2);
             }
             else if (receiptTotalIncVat >= 800) {
@@ -101,7 +106,7 @@ public class Reciever {
             }
 
             // Logger til konsoll
-            System.out.printf("Mottok event med innhold: %s%n", jsonNode.toString());
+            System.out.println("Mottok event med innhold: " + jsonNode.toString());
 
             // Sender eventet til alle tilkoblede WebSocket-klienter på topic "receipts"
             messagingTemplate.convertAndSend("/topic/receipts", jsonNode);

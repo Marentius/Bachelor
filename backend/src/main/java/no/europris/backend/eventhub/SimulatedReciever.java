@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
-@Component
+//@Component
 @EnableScheduling
 public class SimulatedReciever {
     private final SimpMessagingTemplate messagingTemplate;
@@ -30,7 +30,9 @@ public class SimulatedReciever {
     private void pollEvents() {
         LocalTime time = LocalTime.now();
         Random random = new Random();
+
         ObjectNode event = objectMapper.createObjectNode();
+
         event.put("uniqueReceiptId", time.toString());
         event.put("storeNo", random.nextInt(400));
         event.put("numberOfDifferentItems", random.nextInt(10));
@@ -38,9 +40,10 @@ public class SimulatedReciever {
         event.put("receiptTotalIncVat", random.nextInt(1100));
         event.put("transDateTime", time.toString());
         event.put("saleSizeCategory", random.nextInt(4));
+
         System.out.println(event.getNodeType());
         System.out.println(event.getClass());
+        
         messagingTemplate.convertAndSend("/topic/receipts", event);
     }
-
 }
