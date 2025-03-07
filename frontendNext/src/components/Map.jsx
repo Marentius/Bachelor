@@ -3,6 +3,8 @@ import { MapContainer, TileLayer, GeoJSON } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import '../style/Map.css'
 import norwayBorders from '../geoJSON/Norge-S.geojson'
+import stateBorders from '../geoJSON/Fylker-S.geojson'
+
 
 
 export default function Map() {
@@ -18,7 +20,7 @@ export default function Map() {
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
                 <GeoJSON className="geojson-norway"
-                    data={norwayBorders}
+                    data={[norwayBorders, stateBorders]}
                 />
             </MapContainer>
         </div>
