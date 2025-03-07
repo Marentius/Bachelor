@@ -6,6 +6,7 @@ import norwayBorders from '../geoJSON/Norge-S.geojson'
 import stateBorders from '../geoJSON/Fylker-S.geojson'
 
 
+
 export default function Map() {
     return (
         <div className="app-container">
