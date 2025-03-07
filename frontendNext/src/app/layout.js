@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Europris Visualization",
-  description: "Made by Vetle Marentius Nilsen, Robin Enerhaugen, Sondre Kasin Hammerborg and Emilie Ruud",
+  description: "Made by Vetle Marentius Nilsen, Robin Enerhaugen, Sondre Kasin Hammerborg and Emilie Ruud"
 };
 
 export default function RootLayout({ children }) {
