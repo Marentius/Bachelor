@@ -1,10 +1,8 @@
 import L from 'leaflet';
 
 const defaultIcon = L.icon({
-    iconUrl: '/flower.png',
-
-    iconSize: [25, 25],
-    popupAnchor: [0, -15]
+    iconUrl: '/warehouse.png',
+    iconSize: [25, 25]
 });
 
 export { defaultIcon };
