@@ -13,17 +13,29 @@ import { defaultIcon } from '../icons/Icons';
 export default function Map() {
 
     const [stores, setStores] = useState([]);
+    const [isMobile, setIsMobile] = useState(false);
+
+    // Dynamisk endring av zoom og center basert på skjermens størrelse.
+    const zoom = isMobile ? 4 : 5;
+    const center = isMobile ? [59.82, 17.67] : [65.53, 21.62]
     
     useEffect(() => {
+        //Filtrerer butikkdataen på breddegrader og lengdegrader. 
         const stores = storeData.filter(store => store.latitude && store.longitude)
         setStores(stores);
+
+        //Sjekket om skjermen er over eller under 768px og endrer verdien på isMobile. 
+        if (window.innerWidth <= 768) {
+            setIsMobile(true);
+        }
+
     }, []);
 
     return (
         <div className="app-container">
             <MapContainer className="map-container"
-                center={[65.53, 21.62]} 
-                zoom={5} 
+                center={center} 
+                zoom={zoom} 
                 scrollWheelZoom={true}
             >
                 <TileLayer
