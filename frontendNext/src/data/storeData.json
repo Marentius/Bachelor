@@ -1,18 +1,5 @@
 [
     {
-      "storeNo": 361,
-      "name": "EP BLOMSTERDALEN - utgått",
-      "storeNoName": "361 EP BLOMSTERDALEN - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "",
-      "physicalStore": true,
-      "municipality": "",
-      "countryRegion": "",
-      "postalCity": "",
-      "postalCode": null
-    },
-    {
       "storeNo": 362,
       "name": "EP EVJE",
       "storeNoName": "362 EP EVJE",
@@ -169,19 +156,6 @@
       "postalCode": 3539
     },
     {
-      "storeNo": 377,
-      "name": "EP OPPEGÅRD - utgått",
-      "storeNoName": "377 EP OPPEGÅRD - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "",
-      "physicalStore": true,
-      "municipality": "",
-      "countryRegion": "",
-      "postalCity": "",
-      "postalCode": null
-    },
-    {
       "storeNo": 4,
       "name": "IKKE BRUK",
       "storeNoName": "004 IKKE BRUK",
@@ -206,71 +180,6 @@
       "countryRegion": "Vestlandet",
       "postalCity": "MOLDE",
       "postalCode": 6415
-    },
-    {
-      "storeNo": 379,
-      "name": "EP NORDKJOSBOTN - utgått",
-      "storeNoName": "379 EP NORDKJOSBOTN - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "",
-      "physicalStore": true,
-      "municipality": "",
-      "countryRegion": "",
-      "postalCity": "",
-      "postalCode": null
-    },
-    {
-      "storeNo": 380,
-      "name": "EP FETSUND - utgått",
-      "storeNoName": "380 EP FETSUND - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "",
-      "physicalStore": true,
-      "municipality": "",
-      "countryRegion": "",
-      "postalCity": "",
-      "postalCode": null
-    },
-    {
-      "storeNo": 381,
-      "name": "EP RJUKAN - utgått",
-      "storeNoName": "381 EP RJUKAN - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "",
-      "physicalStore": true,
-      "municipality": "",
-      "countryRegion": "",
-      "postalCity": "",
-      "postalCode": null
-    },
-    {
-      "storeNo": 382,
-      "name": "EP JEVNAKER - utgått",
-      "storeNoName": "382 EP JEVNAKER - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "",
-      "physicalStore": true,
-      "municipality": "",
-      "countryRegion": "",
-      "postalCity": "",
-      "postalCode": null
-    },
-    {
-      "storeNo": 389,
-      "name": "EP SON - utgått",
-      "storeNoName": "389 EP SON - utgått",
-      "latitude": 59.52611,
-      "longitude": 10.6893,
-      "county": "Akershus",
-      "physicalStore": true,
-      "municipality": "VESTBY",
-      "countryRegion": "Østlandet",
-      "postalCity": "SON",
-      "postalCode": 1555
     },
     {
       "storeNo": 369,
@@ -858,19 +767,6 @@
       "postalCode": 985
     },
     {
-      "storeNo": 65,
-      "name": "EP KRISTIANSUND - utgått",
-      "storeNoName": "065 EP KRISTIANSUND - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "",
-      "physicalStore": true,
-      "municipality": "",
-      "countryRegion": "",
-      "postalCity": "",
-      "postalCode": null
-    },
-    {
       "storeNo": 482,
       "name": "EP VORMSUND",
       "storeNoName": "482 EP VORMSUND",
@@ -1443,19 +1339,6 @@
       "postalCode": 7580
     },
     {
-      "storeNo": 448,
-      "name": "EP SOLHEIMSVIKEN - utgått",
-      "storeNoName": "448 EP SOLHEIMSVIKEN - utgått",
-      "latitude": 60.3759,
-      "longitude": 5.33839,
-      "county": "Vestland",
-      "physicalStore": true,
-      "municipality": "BERGEN",
-      "countryRegion": "Vestlandet",
-      "postalCity": "BERGEN",
-      "postalCode": 5054
-    },
-    {
       "storeNo": 621,
       "name": "EP FRØYA",
       "storeNoName": "621 EP FRØYA",
@@ -1729,19 +1612,6 @@
       "postalCode": 1255
     },
     {
-      "storeNo": 75,
-      "name": "EP HAMAR - utgått",
-      "storeNoName": "075 EP HAMAR - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Innlandet",
-      "physicalStore": true,
-      "municipality": "HAMAR",
-      "countryRegion": "Østlandet",
-      "postalCity": "HAMAR",
-      "postalCode": 2317
-    },
-    {
       "storeNo": 76,
       "name": "EP KRAGERØ",
       "storeNoName": "076 EP KRAGERØ",
@@ -1792,19 +1662,6 @@
       "countryRegion": "Nord-Norge",
       "postalCity": "TROMSØ",
       "postalCode": 9010
-    },
-    {
-      "storeNo": 83,
-      "name": "EP MOSS - utgått",
-      "storeNoName": "083 EP MOSS - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Østfold",
-      "physicalStore": true,
-      "municipality": "MOSS",
-      "countryRegion": "Østlandet",
-      "postalCity": "MOSS",
-      "postalCode": 1521
     },
     {
       "storeNo": 579,
@@ -1922,45 +1779,6 @@
       "countryRegion": "Østlandet",
       "postalCity": "ASKIM",
       "postalCode": 1830
-    },
-    {
-      "storeNo": 337,
-      "name": "EP NORÅS FANA - utgått",
-      "storeNoName": "337 EP NORÅS FANA - utgått",
-      "latitude": 60.3087,
-      "longitude": 5.32568,
-      "county": "Vestland",
-      "physicalStore": true,
-      "municipality": "BERGEN",
-      "countryRegion": "Vestlandet",
-      "postalCity": "RÅDAL",
-      "postalCode": 5235
-    },
-    {
-      "storeNo": 113,
-      "name": "EP TILLER - utgått",
-      "storeNoName": "113 EP TILLER - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Trøndelag",
-      "physicalStore": true,
-      "municipality": "TRONDHEIM",
-      "countryRegion": "Trøndelag",
-      "postalCity": "TILLER",
-      "postalCode": 7075
-    },
-    {
-      "storeNo": 116,
-      "name": "EP STEINKJER - utgått",
-      "storeNoName": "116 EP STEINKJER - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Trøndelag",
-      "physicalStore": true,
-      "municipality": "STEINKJER",
-      "countryRegion": "Trøndelag",
-      "postalCity": "STEINKJER",
-      "postalCode": 7729
     },
     {
       "storeNo": 20,
@@ -2106,19 +1924,6 @@
       "postalCode": 2850
     },
     {
-      "storeNo": 372,
-      "name": "EP BODØ - utgått",
-      "storeNoName": "372 EP BODØ - utgått",
-      "latitude": 67.27818,
-      "longitude": 14.41907,
-      "county": "Nordland",
-      "physicalStore": true,
-      "municipality": "BODØ",
-      "countryRegion": "Nord-Norge",
-      "postalCity": "BODØ",
-      "postalCode": 8008
-    },
-    {
       "storeNo": 395,
       "name": "EP HORTEN",
       "storeNoName": "395 EP HORTEN",
@@ -2171,19 +1976,6 @@
       "postalCode": 9406
     },
     {
-      "storeNo": 163,
-      "name": "EP VERDAL - utgått",
-      "storeNoName": "163 EP VERDAL - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Trøndelag",
-      "physicalStore": true,
-      "municipality": "VERDAL",
-      "countryRegion": "Trøndelag",
-      "postalCity": "VERDAL",
-      "postalCode": 7650
-    },
-    {
       "storeNo": 443,
       "name": "EP LANGRØNNINGEN",
       "storeNoName": "443 EP LANGRØNNINGEN",
@@ -2221,32 +2013,6 @@
       "countryRegion": "Trøndelag",
       "postalCity": "OPPDAL",
       "postalCode": 7340
-    },
-    {
-      "storeNo": 171,
-      "name": "EP AVALDNES - utgått",
-      "storeNoName": "171 EP AVALDNES - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Rogaland",
-      "physicalStore": true,
-      "municipality": "KARMØY",
-      "countryRegion": "Vestlandet",
-      "postalCity": "AVALDSNES",
-      "postalCode": 4262
-    },
-    {
-      "storeNo": 178,
-      "name": "EP VENNESLA - utgått",
-      "storeNoName": "178 EP VENNESLA - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Agder",
-      "physicalStore": true,
-      "municipality": "VENNESLA",
-      "countryRegion": "Sørlandet",
-      "postalCity": "VENNESLA",
-      "postalCode": 4700
     },
     {
       "storeNo": 499,
@@ -2366,19 +2132,6 @@
       "postalCode": 8300
     },
     {
-      "storeNo": 213,
-      "name": "EP LIAMYRANE - utgått",
-      "storeNoName": "213 EP LIAMYRANE - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Vestland",
-      "physicalStore": true,
-      "municipality": "BERGEN",
-      "countryRegion": "Vestlandet",
-      "postalCity": "NYBORG",
-      "postalCode": 5132
-    },
-    {
       "storeNo": 413,
       "name": "EP MYSEN",
       "storeNoName": "413 EP MYSEN",
@@ -2418,19 +2171,6 @@
       "postalCode": 4070
     },
     {
-      "storeNo": 218,
-      "name": "EP SØRLANDSPARKEN - utgått",
-      "storeNoName": "218 EP SØRLANDSPARKEN - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Agder",
-      "physicalStore": true,
-      "municipality": "KRISTIANSAND",
-      "countryRegion": "Sørlandet",
-      "postalCity": "KRISTIANSAND S",
-      "postalCode": 4636
-    },
-    {
       "storeNo": 436,
       "name": "EP LILLESAND",
       "storeNoName": "436 EP LILLESAND",
@@ -2468,19 +2208,6 @@
       "countryRegion": "Vestlandet",
       "postalCity": "STAVANGER",
       "postalCode": 4014
-    },
-    {
-      "storeNo": 222,
-      "name": "EP KRISTIANSAND - utgått",
-      "storeNoName": "222 EP KRISTIANSAND - utgått",
-      "latitude": 58.15754,
-      "longitude": 8.02848,
-      "county": "Agder",
-      "physicalStore": true,
-      "municipality": "KRISTIANSAND",
-      "countryRegion": "Sørlandet",
-      "postalCity": "KRISTIANSAND S",
-      "postalCode": 4632
     },
     {
       "storeNo": 223,
@@ -2626,19 +2353,6 @@
       "postalCode": 5536
     },
     {
-      "storeNo": 234,
-      "name": "EP KROKSTAD - utgått",
-      "storeNoName": "234 EP KROKSTAD - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Buskerud",
-      "physicalStore": true,
-      "municipality": "DRAMMEN",
-      "countryRegion": "Østlandet",
-      "postalCity": "KROKSTADELVA",
-      "postalCode": 3055
-    },
-    {
       "storeNo": 236,
       "name": "EP VOLLEBEKK",
       "storeNoName": "236 EP VOLLEBEKK",
@@ -2689,19 +2403,6 @@
       "countryRegion": "Østlandet",
       "postalCity": "HALDEN",
       "postalCode": 1771
-    },
-    {
-      "storeNo": 240,
-      "name": "EP STRØMMEN - utgått",
-      "storeNoName": "240 EP STRØMMEN - utgått",
-      "latitude": 59.94569,
-      "longitude": 11.0067,
-      "county": "Akershus",
-      "physicalStore": true,
-      "municipality": "LILLESTRØM",
-      "countryRegion": "Østlandet",
-      "postalCity": "STRØMMEN",
-      "postalCode": 2010
     },
     {
       "storeNo": 242,
@@ -2899,45 +2600,6 @@
       "postalCode": 1068
     },
     {
-      "storeNo": 256,
-      "name": "EP MAURA - utgått",
-      "storeNoName": "256 EP MAURA - utgått",
-      "latitude": 60.25869,
-      "longitude": 11.03307,
-      "county": "Akershus",
-      "physicalStore": true,
-      "municipality": "NANNESTAD",
-      "countryRegion": "Østlandet",
-      "postalCity": "MAURA",
-      "postalCode": 2032
-    },
-    {
-      "storeNo": 257,
-      "name": "EP ØSTERÅS - utgått",
-      "storeNoName": "257 EP ØSTERÅS - utgått",
-      "latitude": 59.94371,
-      "longitude": 10.60742,
-      "county": "Akershus",
-      "physicalStore": true,
-      "municipality": "BÆRUM",
-      "countryRegion": "Østlandet",
-      "postalCity": "ØSTERÅS",
-      "postalCode": 1361
-    },
-    {
-      "storeNo": 258,
-      "name": "EP NORDHEIMSUND - utgått",
-      "storeNoName": "258 EP NORDHEIMSUND - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Vestland",
-      "physicalStore": true,
-      "municipality": "KVAM",
-      "countryRegion": "Vestlandet",
-      "postalCity": "NORHEIMSUND",
-      "postalCode": 5600
-    },
-    {
       "storeNo": 334,
       "name": "EP NØTTERØY",
       "storeNoName": "334 EP NØTTERØY",
@@ -2964,19 +2626,6 @@
       "postalCode": 6440
     },
     {
-      "storeNo": 261,
-      "name": "EP LEVANGER - utgått",
-      "storeNoName": "261 EP LEVANGER - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Trøndelag",
-      "physicalStore": true,
-      "municipality": "LEVANGER",
-      "countryRegion": "Trøndelag",
-      "postalCity": "LEVANGER",
-      "postalCode": 7600
-    },
-    {
       "storeNo": 262,
       "name": "EP HAUGENSTUA",
       "storeNoName": "262 EP HAUGENSTUA",
@@ -2988,19 +2637,6 @@
       "countryRegion": "Østlandet",
       "postalCity": "OSLO",
       "postalCode": 977
-    },
-    {
-      "storeNo": 263,
-      "name": "EP TVEDESTRAND - utgått",
-      "storeNoName": "263 EP TVEDESTRAND - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Agder",
-      "physicalStore": true,
-      "municipality": "TVEDESTRAND",
-      "countryRegion": "Sørlandet",
-      "postalCity": "TVEDESTRAND",
-      "postalCode": 4900
     },
     {
       "storeNo": 415,
@@ -3105,19 +2741,6 @@
       "countryRegion": "Østlandet",
       "postalCity": "TRYSIL",
       "postalCode": 2420
-    },
-    {
-      "storeNo": 278,
-      "name": "EP STORHAMAR - utgått",
-      "storeNoName": "278 EP STORHAMAR - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Innlandet",
-      "physicalStore": true,
-      "municipality": "HAMAR",
-      "countryRegion": "Østlandet",
-      "postalCity": "HAMAR",
-      "postalCode": 2316
     },
     {
       "storeNo": 279,
@@ -3404,32 +3027,6 @@
       "countryRegion": "Sørlandet",
       "postalCity": "VENNESLA",
       "postalCode": 4700
-    },
-    {
-      "storeNo": 40,
-      "name": "EP ARENDAL - utgått",
-      "storeNoName": "040 EP ARENDAL - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Agder",
-      "physicalStore": true,
-      "municipality": "ARENDAL",
-      "countryRegion": "Sørlandet",
-      "postalCity": "ARENDAL",
-      "postalCode": 4836
-    },
-    {
-      "storeNo": 292,
-      "name": "EP HAMAR -utgått",
-      "storeNoName": "292 EP HAMAR -utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Innlandet",
-      "physicalStore": true,
-      "municipality": "HAMAR",
-      "countryRegion": "Østlandet",
-      "postalCity": "HAMAR",
-      "postalCode": 2317
     },
     {
       "storeNo": 293,
@@ -3822,84 +3419,6 @@
       "postalCode": 5460
     },
     {
-      "storeNo": 69,
-      "name": "EP ÅLESUND - utgått",
-      "storeNoName": "069 EP ÅLESUND - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Møre og Romsdal",
-      "physicalStore": true,
-      "municipality": "ÅLESUND",
-      "countryRegion": "Vestlandet",
-      "postalCity": "ÅLESUND",
-      "postalCode": 6003
-    },
-    {
-      "storeNo": 71,
-      "name": "EP TROMDSDALEN - utgått",
-      "storeNoName": "071 EP TROMDSDALEN - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Troms",
-      "physicalStore": true,
-      "municipality": "TROMSØ",
-      "countryRegion": "Nord-Norge",
-      "postalCity": "TROMSØ",
-      "postalCode": 9015
-    },
-    {
-      "storeNo": 85,
-      "name": "EP Brua - utgått",
-      "storeNoName": "085 EP Brua - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Innlandet",
-      "physicalStore": true,
-      "municipality": "NORD-AURDAL",
-      "countryRegion": "Østlandet",
-      "postalCity": "FAGERNES",
-      "postalCode": 2900
-    },
-    {
-      "storeNo": 180,
-      "name": "EP SLEPENDEN - utgått",
-      "storeNoName": "180 EP SLEPENDEN - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Akershus",
-      "physicalStore": true,
-      "municipality": "ASKER",
-      "countryRegion": "Østlandet",
-      "postalCity": "BILLINGSTAD",
-      "postalCode": 1396
-    },
-    {
-      "storeNo": 232,
-      "name": "EP Lillestrøm - utgått",
-      "storeNoName": "232 EP Lillestrøm - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Akershus",
-      "physicalStore": true,
-      "municipality": "LILLESTRØM",
-      "countryRegion": "Østlandet",
-      "postalCity": "LILLESTRØM",
-      "postalCode": 2000
-    },
-    {
-      "storeNo": 235,
-      "name": "EP Kvadrat - utgått",
-      "storeNoName": "235 EP Kvadrat - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Rogaland",
-      "physicalStore": true,
-      "municipality": "SANDNES",
-      "countryRegion": "Vestlandet",
-      "postalCity": "SANDNES",
-      "postalCode": 4313
-    },
-    {
       "storeNo": 590,
       "name": "EP DOKKA",
       "storeNoName": "590 EP DOKKA",
@@ -3913,32 +3432,6 @@
       "postalCode": 2870
     },
     {
-      "storeNo": 241,
-      "name": "EP SANDAKERVEIEN - utgått",
-      "storeNoName": "241 EP SANDAKERVEIEN - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Oslo",
-      "physicalStore": true,
-      "municipality": "OSLO",
-      "countryRegion": "Østlandet",
-      "postalCity": "OSLO",
-      "postalCode": 473
-    },
-    {
-      "storeNo": 251,
-      "name": "EP SOLA - utgått",
-      "storeNoName": "251 EP SOLA - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Rogaland",
-      "physicalStore": true,
-      "municipality": "SOLA",
-      "countryRegion": "Vestlandet",
-      "postalCity": "SOLA",
-      "postalCode": 4050
-    },
-    {
       "storeNo": 320,
       "name": "EP LADE",
       "storeNoName": "320 EP LADE",
@@ -3950,19 +3443,6 @@
       "countryRegion": "Trøndelag",
       "postalCity": "TRONDHEIM",
       "postalCode": 7041
-    },
-    {
-      "storeNo": 319,
-      "name": "EP ØLENSVÅG - utgått",
-      "storeNoName": "319 EP ØLENSVÅG - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Rogaland",
-      "physicalStore": true,
-      "municipality": "VINDAFJORD",
-      "countryRegion": "Vestlandet",
-      "postalCity": "ØLENSVÅG",
-      "postalCode": 5582
     },
     {
       "storeNo": 312,
@@ -4121,32 +3601,6 @@
       "postalCode": null
     },
     {
-      "storeNo": 54,
-      "name": "EP ÅSANE - utgått",
-      "storeNoName": "054 EP ÅSANE - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Vestland",
-      "physicalStore": true,
-      "municipality": "BERGEN",
-      "countryRegion": "Vestlandet",
-      "postalCity": "NYBORG",
-      "postalCode": 5132
-    },
-    {
-      "storeNo": 2,
-      "name": "EP BRANDBU - utgått",
-      "storeNoName": "0002 EP BRANDBU - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "",
-      "physicalStore": true,
-      "municipality": "",
-      "countryRegion": "",
-      "postalCity": "",
-      "postalCode": null
-    },
-    {
       "storeNo": 3,
       "name": "NY3",
       "storeNoName": "0003 NY3",
@@ -4212,19 +3666,6 @@
       "postalCode": 1604
     },
     {
-      "storeNo": 220,
-      "name": "EP MOLDE - utgått",
-      "storeNoName": "220 EP MOLDE - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Møre og Romsdal",
-      "physicalStore": true,
-      "municipality": "MOLDE",
-      "countryRegion": "Vestlandet",
-      "postalCity": "MOLDE",
-      "postalCode": 6415
-    },
-    {
       "storeNo": 386,
       "name": "EP MJØNDALEN",
       "storeNoName": "386 EP MJØNDALEN",
@@ -4249,19 +3690,6 @@
       "countryRegion": "Østlandet",
       "postalCity": "SANDVIKA",
       "postalCode": 1337
-    },
-    {
-      "storeNo": 55,
-      "name": "EP KIRKENES - utgått",
-      "storeNoName": "055 EP KIRKENES - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Finnmark",
-      "physicalStore": true,
-      "municipality": "SØR-VARANGER",
-      "countryRegion": "Nord-Norge",
-      "postalCity": "KIRKENES",
-      "postalCode": 9900
     },
     {
       "storeNo": 325,
@@ -4366,19 +3794,6 @@
       "countryRegion": "Trøndelag",
       "postalCity": "STØREN",
       "postalCode": 7290
-    },
-    {
-      "storeNo": 331,
-      "name": "EP ÅL - utgått",
-      "storeNoName": "331 EP ÅL - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "",
-      "physicalStore": true,
-      "municipality": "",
-      "countryRegion": "",
-      "postalCity": "",
-      "postalCode": null
     },
     {
       "storeNo": 56,
@@ -4563,19 +3978,6 @@
       "postalCode": 5705
     },
     {
-      "storeNo": 185,
-      "name": "EP LARVIK - utgått",
-      "storeNoName": "185 EP LARVIK - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Vestfold",
-      "physicalStore": true,
-      "municipality": "LARVIK",
-      "countryRegion": "Østlandet",
-      "postalCity": "LARVIK",
-      "postalCode": 3256
-    },
-    {
       "storeNo": 606,
       "name": "EP KONGSBERG SØLVPARKEN",
       "storeNoName": "606 EP KONGSBERG SØLVPARKEN",
@@ -4587,19 +3989,6 @@
       "countryRegion": "Østlandet",
       "postalCity": "KONGSBERG",
       "postalCode": 3602
-    },
-    {
-      "storeNo": 343,
-      "name": "EP MOA - utgått",
-      "storeNoName": "343 EP MOA - utgått",
-      "latitude": 62.46675,
-      "longitude": 6.34698,
-      "county": "Møre og Romsdal",
-      "physicalStore": true,
-      "municipality": "ÅLESUND",
-      "countryRegion": "Vestlandet",
-      "postalCity": "ÅLESUND",
-      "postalCode": 6018
     },
     {
       "storeNo": 489,
@@ -4717,19 +4106,6 @@
       "countryRegion": "Østlandet",
       "postalCity": "DRØBAK",
       "postalCode": 1448
-    },
-    {
-      "storeNo": 200,
-      "name": "EP SKARNES - utgått",
-      "storeNoName": "200 EP SKARNES - utgått",
-      "latitude": null,
-      "longitude": null,
-      "county": "Innlandet",
-      "physicalStore": true,
-      "municipality": "SØR-ODAL",
-      "countryRegion": "Østlandet",
-      "postalCity": "SKARNES",
-      "postalCode": 2100
     },
     {
       "storeNo": 506,
