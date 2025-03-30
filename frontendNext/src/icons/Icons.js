@@ -10,18 +10,14 @@ const createFlowerIcon = (category) => {
     // Bestem størrelsen basert på kategori
     // Kategori 1 = liten, 2 = medium, 3 = stor
     let size;
-    switch (category) {
-        case 1:
-            size = 30; // Liten blomst
-            break;
-        case 2:
-            size = 60; // Medium blomst
-            break;
-        case 3:
-            size = 90; // Stor blomst
-            break;
-        default:
-            size = 30; // Standard størrelse hvis kategori er ukjent
+    if (category === 1) {
+        size = 30; // Liten blomst
+    } else if (category === 2) {
+        size = 60; // Medium blomst
+    } else if (category === 3) {
+        size = 90; // Stor blomst
+    } else {
+        size = 30; // Standard størrelse hvis kategori er ukjent
     }
     
     return L.divIcon({

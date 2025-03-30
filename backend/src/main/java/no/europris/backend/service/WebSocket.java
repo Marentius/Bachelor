@@ -22,10 +22,6 @@ public class WebSocket implements WebSocketMessageBrokerConfigurer {
         // Setter opp en simpel broker som håndterer meldinger med '/topic' prefix
         // Klienter må abonnere på f.eks. "/topic/receipts" for å motta meldinger
         config.enableSimpleBroker("/topic");
-
-        // Setter prefix for meldinger som sendes FRA klient TIL server
-        // Klienter må sende meldinger til f.eks. "/app/send-receipt"
-        config.setApplicationDestinationPrefixes("/app");
     }
 
     /**

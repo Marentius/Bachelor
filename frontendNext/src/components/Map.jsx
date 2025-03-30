@@ -1,5 +1,5 @@
 'use client'
-import { MapContainer, TileLayer, GeoJSON } from 'react-leaflet';
+import { MapContainer, TileLayer, GeoJSON, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import '../style/Map.css';
 import { useState, useEffect } from 'react';
@@ -7,10 +7,9 @@ import { useState, useEffect } from 'react';
 import norwayBorders from '../geoJSON/Norge-S.geojson'
 import stateBorders from '../geoJSON/Fylker-S.geojson'
 import storeData from '../data/storeData.json'
+import { defaultIcon } from '../icons/Icons';
 
-
-import MapController from '../controller/MapController';  // Gir tilgang til Leaflet-kartobjektet
-import StoreMarkers from './StoreMarkers';
+import MapController from '../controller/MapController';  //Gir tilgang til Leaflet-kartobjektet
 import EventHandler from './EventHandler';
 
 /**
@@ -73,10 +72,22 @@ export default function Map() {
                     data={[norwayBorders, stateBorders]}
                 />
                 
-                <StoreMarkers 
-                    stores={stores}
-                    activeEvents={activeEvents}
-                />
+                {/* Butikkmarkører direkte i Map-komponenten */}
+                {stores.map(store => (
+                    <Marker 
+                        key={store.storeNo}              
+                        position={[store.latitude, store.longitude]} 
+                        icon={defaultIcon}               
+                    >
+                        <Popup>
+                            <div>
+                                <h3>{store.name}</h3>
+                                <p>Butikknr: {store.storeNo}</p>
+                                {activeEvents[store.storeNo]}
+                            </div>
+                        </Popup>
+                    </Marker>
+                ))}
                 
                 {/* EventHandler håndterer WebSocket-eventer og animasjoner */}
                 {/* Vises kun når mapInstance er tilgjengelig (kartet er lastet) */}
