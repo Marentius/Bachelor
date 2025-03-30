@@ -15,12 +15,13 @@ import EventHandler from './EventHandler';
 /**
  * Map - Hovedkomponent for kartvisningen
  * 
- * Denne komponenten integrerer alle kartrelaterte funksjonaliteter:
+ * Dette komponentet integrerer alle kartrelaterte funksjonaliteter:
  * - Viser et kart med Norge og fylkesgrenser
  * - Viser markører for alle butikker
  * - Håndterer realtime-oppdateringer fra WebSocket
  * - Viser blomsteranimasjoner når butikker mottar salg
  */
+
 export default function Map() {
     const [stores, setStores] = useState([]); //Butikker som skal vises på kartet
     const [isMobile, setIsMobile] = useState(false); //Om skjermen er mobil
@@ -47,6 +48,7 @@ export default function Map() {
      * Callback-funksjon som mottar Leaflet-kartobjektet fra MapController
      * Dette gir oss tilgang til det faktiske kartobjektet
      */
+
     const handleMapReady = (map) => {
         setMapInstance(map);
     };
@@ -59,7 +61,7 @@ export default function Map() {
                 zoom={zoom}
                 scrollWheelZoom={true}
             >
-                {/* MapController gir oss tilgang til Leaflet-kartobjektet */}
+                {/* MapController som oss tilgang til Leaflet-kartobjektet */}
                 <MapController onMapReady={handleMapReady} />
             
                 <TileLayer
@@ -72,7 +74,7 @@ export default function Map() {
                     data={[norwayBorders, stateBorders]}
                 />
                 
-                {/* Butikkmarkører direkte i Map-komponenten */}
+                {/* Itererer gjennom alle butikker og lager markører for hver butikk */}
                 {stores.map(store => (
                     <Marker 
                         key={store.storeNo}              

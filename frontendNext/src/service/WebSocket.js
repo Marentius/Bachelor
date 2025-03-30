@@ -34,7 +34,6 @@ stompClient.onStompError = (frame) => {
 // Starter tilkoblingen
 stompClient.activate();
 
-// Eksporterer klienten for bruk i andre komponenter
 export default stompClient;
 
 
