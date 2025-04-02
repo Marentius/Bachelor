@@ -39,7 +39,7 @@ public class SimulatedReciever {
         event.put("quantityOfItems", random.nextInt(10));
         event.put("receiptTotalIncVat", random.nextInt(1100));
         event.put("transDateTime", time.toString());
-        event.put("saleSizeCategory", random.nextInt(4));
+        event.put("saleSizeCategory", random.nextInt(3) + 1);
 
         System.out.println(event.getNodeType());
         System.out.println(event.getClass());

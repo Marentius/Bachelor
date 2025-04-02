@@ -9,7 +9,7 @@ import org.springframework.lang.NonNull;
 
 //Denne klassen setter opp WebSocket-kommunikasjon mellom server og klient.
 @Configuration
-@EnableWebSocketMessageBroker // Aktiverer WebSocket med meldingsmegler (message broker)
+@EnableWebSocketMessageBroker // Aktiverer WebSocket med message broker
 public class WebSocket implements WebSocketMessageBrokerConfigurer {
 
     /**
@@ -19,13 +19,8 @@ public class WebSocket implements WebSocketMessageBrokerConfigurer {
      */
     @Override
     public void configureMessageBroker(@NonNull MessageBrokerRegistry config) {
-        // Setter opp en simpel broker som håndterer meldinger med '/topic' prefix
-        // Klienter må abonnere på f.eks. "/topic/receipts" for å motta meldinger
+        // Setter opp en simpel broker som håndterer meldinger med destinasjonen '/topic'
         config.enableSimpleBroker("/topic");
-
-        // Setter prefix for meldinger som sendes FRA klient TIL server
-        // Klienter må sende meldinger til f.eks. "/app/send-receipt"
-        config.setApplicationDestinationPrefixes("/app");
     }
 
     /**
@@ -37,8 +32,8 @@ public class WebSocket implements WebSocketMessageBrokerConfigurer {
     public void registerStompEndpoints(@NonNull StompEndpointRegistry registry) {
         // Oppretter hovedendepunktet for WebSocket-tilkoblinger
         registry.addEndpoint("/ws-receipts")
-                // Tillater kun tilkoblinger fra React-applikasjonen på localhost:5173
-                .setAllowedOrigins("http://localhost:5173, http://localhost:3000");
+                // Tillater kun tilkoblinger fra React-applikasjonen på localhost:3000
+                .setAllowedOrigins("http://localhost:3000");
     }
 }
 

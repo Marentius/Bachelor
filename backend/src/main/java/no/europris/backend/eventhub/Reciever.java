@@ -18,7 +18,6 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 
 // Denne klassen er ansvarlig for å motta events fra Azure Event Hub og videresende dem til WebSocket
 
-// Gjør at Spring Boot automatisk oppretter en instans av denne klassen
 @Component
 @EnableScheduling // Aktiverer scheduling-funksjonalitet
 public class Reciever {
@@ -57,7 +56,7 @@ public class Reciever {
     }
 
     // Planlagt oppgave som kjører med fast intervall
-    // fixedDelay = 1000 betyr at det går 1000ms fra en oppgave er ferdig til neste starter
+    // fixedDelay på 1 sekund fra en oppgave er ferdig til neste starter
     @Scheduled(fixedDelay = 1000)
     public void pollEventsWithFixedDelay() {
         System.out.println("Polling events med fixed delay: " + System.currentTimeMillis() / 1000);
@@ -91,8 +90,7 @@ public class Reciever {
             // Henter ut feltet vi skal bruke for å kategorisere dataen som double
             Double receiptTotalIncVat = jsonNode.path("receiptTotalIncVat").asDouble();
 
-            // Legger til kategori basert på verdien i feltet, verdiene skal endres i
-            // etterkant
+            // Legger til kategori basert på verdien i feltet
             if (jsonNode.get("receiptTotalIncVat").asDouble() >= 300
                     && jsonNode.get("receiptTotalIncVat").asDouble() < 800) {
             //JsonNode er en skrivebeskyttet klasse. Det vil si at vi kan lese fra den, men ikke skrive til den. For å kunne skrive til den må vi type-caste den til ObjectNode.
@@ -108,7 +106,7 @@ public class Reciever {
             // Logger til konsoll
             System.out.println("Mottok event med innhold: " + jsonNode.toString());
 
-            // Sender eventet til alle tilkoblede WebSocket-klienter på topic "receipts"
+            // Sender eventet til alle tilkoblede WebSocket-klienter på /topic/receipts
             messagingTemplate.convertAndSend("/topic/receipts", jsonNode);
         } catch (JsonProcessingException e) {
             e.printStackTrace();
