@@ -1,19 +1,19 @@
 import { useEffect } from 'react';
 import stompClient from '../service/WebSocket';
-import { createFlowerAnimation } from '../utils/mapAnimations';
+import { createFlowerAnimation } from '../utils/flowerAnimation';
 
 /**
  * @param {Object} mapInstance - Leaflet-kartobjektet for å legge til animasjoner
  * @param {Array} stores - Liste over butikker med posisjonsinformasjon
  * @param {Function} setActiveEvents - State-setter for å oppdatere aktive hendelser
  */
-export default function EventHandler({ mapInstance, stores, setActiveEvents }) {
+export default function Animation({ mapInstance, stores, setActiveEvents }) {
     // WebSocket-lytting 
     useEffect(() => {
         const handleEvent = (message) => {
             try {
                 const event = JSON.parse(message.body);
-                const { storeNo, saleSizeCategory: category, receiptTotalIncVat: amount } = event;
+                const { storeNo, saleSizeCategory, receiptTotalIncVat: amount } = event;
                 
                 // Finner butikken i butikklisten basert på butikknummer
                 const store = stores.find(s => s.storeNo == storeNo);
@@ -24,13 +24,13 @@ export default function EventHandler({ mapInstance, stores, setActiveEvents }) {
                 setActiveEvents(prev => ({
                     ...prev,                          
                     [storeNo]: {                      
-                        category,                     
+                        saleSizeCategory,                     
                         timestamp: Date.now(),        
                         amount                        
                     }
                 }));
                 
-                createFlowerAnimation(mapInstance, store, category);
+                createFlowerAnimation(mapInstance, store, saleSizeCategory);
                 
                 setTimeout(() => {
                     setActiveEvents(prev => {

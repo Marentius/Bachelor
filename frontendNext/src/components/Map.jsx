@@ -10,7 +10,7 @@ import storeData from '../data/storeData.json'
 import { defaultIcon } from '../icons/Icons';
 
 import MapController from '../controller/MapController';  //Gir tilgang til Leaflet-kartobjektet
-import EventHandler from './EventHandler';
+import Animation from './Animation';
 
 /**
  * Map - Hovedkomponent for kartvisningen
@@ -91,10 +91,10 @@ export default function Map() {
                     </Marker>
                 ))}
                 
-                {/* EventHandler håndterer WebSocket-eventer og animasjoner */}
+                {/* Animation håndterer WebSocket-eventer og animasjoner */}
                 {/* Vises kun når mapInstance er tilgjengelig (kartet er lastet) */}
                 {mapInstance && (
-                    <EventHandler 
+                    <Animation 
                         mapInstance={mapInstance}
                         stores={stores}
                         setActiveEvents={setActiveEvents}  // Gir mulighet til å oppdatere aktive eventer

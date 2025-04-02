@@ -6,14 +6,14 @@ import { createFlowerIcon } from '../icons/Icons';
  * når en butikk mottar et salg.
  * @param {L.Map} mapInstance - Instansen av Leaflet-kartet
  * @param {Object} store - Butikkobjekt med latitude og longitude
- * @param {string} category - Salgskategori som bestemmer blomstens utseende
+ * @param {string} saleSizeCategory - Salgskategori som bestemmer blomstens utseende
  * @returns {void}
  */
 
-export function createFlowerAnimation(mapInstance, store, category) {
+export function createFlowerAnimation(mapInstance, store, saleSizeCategory) {
     if (!mapInstance) return;
 
-    const flowerIcon = createFlowerIcon(category);
+    const flowerIcon = createFlowerIcon(saleSizeCategory);
     
     const flowerMarker = L.marker([store.latitude, store.longitude], {
         icon: flowerIcon,

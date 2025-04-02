@@ -6,15 +6,15 @@ const defaultIcon = L.icon({
 });
 
 // Funksjon for å lage blomsterikon basert på kategori
-const createFlowerIcon = (category) => {
+const createFlowerIcon = (saleSizeCategory) => {
     // Bestem størrelsen basert på kategori
     // Kategori 1 = liten, 2 = medium, 3 = stor
     let size;
-    if (category === 1) {
+    if (saleSizeCategory === 1) {
         size = 30; // Liten blomst
-    } else if (category === 2) {
+    } else if (saleSizeCategory === 2) {
         size = 60; // Medium blomst
-    } else if (category === 3) {
+    } else if (saleSizeCategory === 3) {
         size = 90; // Stor blomst
     } else {
         size = 30; // Standard størrelse hvis kategori er ukjent
