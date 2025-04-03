@@ -22,7 +22,7 @@ const createFlowerIcon = (saleSizeCategory) => {
     
     return L.divIcon({
         html: `<img src="/standardFlower.svg" class="animated-flower" alt="Blomst" style="width:${size}px; height:${size}px;" />`,
-        className: 'flower-icon-container',
+        className: 'transparent-flower',
         iconSize: [size, size],
         iconAnchor: [size/2, size] // Sentrer ankerpunktet
     });
