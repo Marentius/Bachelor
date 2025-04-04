@@ -85,7 +85,6 @@ export default function Map() {
                             <div>
                                 <h3>{store.name}</h3>
                                 <p>Butikknr: {store.storeNo}</p>
-                                {activeEvents[store.storeNo]}
                             </div>
                         </Popup>
                     </Marker>
