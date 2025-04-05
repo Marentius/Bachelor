@@ -1,13 +1,15 @@
 import { useEffect } from 'react';
+import { useMap } from 'react-leaflet';
 import stompClient from '../service/WebSocket';
 import { createFlowerAnimation } from '../utils/flowerAnimation';
 
 /**
- * @param {Object} mapInstance - Leaflet-kartobjektet for å legge til animasjoner
  * @param {Array} stores - Liste over butikker med posisjonsinformasjon
  * @param {Function} setActiveEvents - State-setter for å oppdatere aktive hendelser
  */
-export default function Animation({ mapInstance, stores, setActiveEvents }) {
+export default function Animation({ stores, setActiveEvents }) {
+    const map = useMap();
+    
     // WebSocket-lytting 
     useEffect(() => {
         const handleEvent = (message) => {
@@ -30,7 +32,7 @@ export default function Animation({ mapInstance, stores, setActiveEvents }) {
                     }
                 }));
                 
-                createFlowerAnimation(mapInstance, store, saleSizeCategory);
+                createFlowerAnimation(map, store, saleSizeCategory);
                 
                 setTimeout(() => {
                     setActiveEvents(prev => {
@@ -49,7 +51,7 @@ export default function Animation({ mapInstance, stores, setActiveEvents }) {
 
         return () => subscription?.unsubscribe();
         
-    }, [mapInstance, stores, setActiveEvents]);
+    }, [map, stores, setActiveEvents]);
 
     return null;
 } 
