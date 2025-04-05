@@ -35,8 +35,8 @@ export default function Map() {
         <div className="app-container">
             <MapContainer 
                 className="map-container"
-                center={center}
-                zoom={zoom}
+                center={[65.53, 21.62]}
+                zoom={5.5}
                 scrollWheelZoom={true}
             >
                 <TileLayer
