@@ -23,31 +23,20 @@ import Animation from './Animation';
 
 export default function Map() {
     const [stores, setStores] = useState([]); //Butikker som skal vises på kartet
-    const [isMobile, setIsMobile] = useState(false); //Om skjermen er mobil
-    const [activeEvents, setActiveEvents] = useState({}); //Aktive salgseventer
-    
-    // Dynamisk beregning av kartets zoom-nivå og senterpunkt basert på skjermstørrelse
-    const zoom = isMobile ? 4 : 5;
-    const center = isMobile ? [59.82, 17.67] : [65.53, 21.62];
     
     // Kjører ved oppstart for å initialisere butikklisten og sjekke skjermstørrelse
     useEffect(() => {
         //Filtrerer butikkdata for å bare inkludere butikker med gyldige koordinater
         const stores = storeData.filter(store => store.latitude && store.longitude)
         setStores(stores);
-
-        // Sjekker om skjermen er over eller under 768px
-        if (window.innerWidth <= 768) {
-            setIsMobile(true);
-        }
     }, []);
 
     return (
         <div className="app-container">
             <MapContainer 
                 className="map-container"
-                center={center}
-                zoom={zoom}
+                center={[65.53, 21.62]}
+                zoom={5.5}
                 scrollWheelZoom={true}
             >
                 <TileLayer
@@ -76,10 +65,7 @@ export default function Map() {
                     </Marker>
                 ))}
                 
-                <Animation 
-                    stores={stores}
-                    setActiveEvents={setActiveEvents}
-                />
+                <Animation stores={stores} />
             </MapContainer>
         </div>
     )
