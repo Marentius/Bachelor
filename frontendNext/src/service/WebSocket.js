@@ -1,4 +1,7 @@
 import { Client } from '@stomp/stompjs';
+import EventEmitter from 'events';
+
+export const eventEmitter = new EventEmitter();
 
 // Oppretter en STOMP-klient
 const stompClient = new Client({
@@ -14,9 +17,9 @@ stompClient.onConnect = (frame) => {
     // Abonnerer på events fra Event Hub
     // Dette matcher destinasjonen i backend: messagingTemplate.convertAndSend("/topic/receipts", ...)
     stompClient.subscribe('/topic/receipts', (message) => {
-        // Når et event mottas, parse JSON og logg til konsollen
-        const eventData = JSON.parse(message.body);
-        console.log('Mottatt event:', eventData);
+        const event = JSON.parse(message.body);
+        // Sender event til alle lyttere
+        eventEmitter.emit('sale', event);
     });
 };
 
