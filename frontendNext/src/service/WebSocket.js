@@ -3,7 +3,7 @@ import { Client } from '@stomp/stompjs';
 // Oppretter en STOMP-klient
 const stompClient = new Client({
     // Kobler til WebSocket-endepunktet definert i backend
-    brokerURL: 'ws://localhost:8080/ws-receipts'
+    brokerURL: 'wss://ep-backend.calmstone-a598e619.northeurope.azurecontainerapps.io/ws-receipts'
 });
 
 // Kjøres når tilkoblingen er etablert
