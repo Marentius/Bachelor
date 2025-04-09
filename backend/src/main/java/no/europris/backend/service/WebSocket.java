@@ -10,7 +10,7 @@ import org.springframework.lang.NonNull;
 //Denne klassen setter opp WebSocket-kommunikasjon mellom server og klient.
 @Configuration
 @EnableWebSocketMessageBroker // Aktiverer WebSocket med message broker
-public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
+public class WebSocket implements WebSocketMessageBrokerConfigurer {
 
     /**
      * Konfigurerer message broker for WebSocket-kommunikasjon
