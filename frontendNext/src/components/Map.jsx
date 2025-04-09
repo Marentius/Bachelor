@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 
 import norwayBorders from '../geoJSON/Norge-S.geojson'
 import stateBorders from '../geoJSON/Fylker-S.geojson'
-import municipalityBorders from '../geoJSON/Komunner-S.geojson'
+import municipalityBorders from '../geoJSON/Kommuner-S.geojson'
 import storeData from '../data/storeData.json'
 import { defaultIcon } from '../icons/Icons';
 
