@@ -5,7 +5,7 @@ export const eventEmitter = new EventEmitter();
 
 // Oppretter en STOMP-klient
 const stompClient = new Client({
-    // Kobler til WebSocket-endepunktet definert i backend
+    // Kobler til WebSocket-endepunktet med backend deployment url 
     brokerURL: 'wss://bachelor-backend.blackground-ee5ef893.northeurope.azurecontainerapps.io/ws-receipts'
 });
 

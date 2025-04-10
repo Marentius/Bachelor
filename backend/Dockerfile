@@ -9,3 +9,7 @@ ENV TZ=Europe/Oslo
 EXPOSE 8080
 
 ENTRYPOINT ["java", "-jar", "app.jar"]
+
+# https://spring.io/guides/gs/spring-boot-docker
+# https://hub.docker.com/_/openjdk
+# ressurser fra Europris 

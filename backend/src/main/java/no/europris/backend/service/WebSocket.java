@@ -32,9 +32,7 @@ public class WebSocket implements WebSocketMessageBrokerConfigurer {
     @Override
     public void registerStompEndpoints(@NonNull StompEndpointRegistry registry) {
         // Oppretter hovedendepunktet for WebSocket-tilkoblinger
-        registry.addEndpoint("/ws-receipts")
-                // Tillater kun tilkoblinger fra React-applikasjonen på localhost:3000
-                .setAllowedOrigins("*");
+        registry.addEndpoint("/ws-receipts").setAllowedOrigins("*");
     }
 }
 
