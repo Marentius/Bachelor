@@ -11,6 +11,7 @@ import storeData from '../data/storeData.json'
 import { defaultIcon } from '../icons/Icons';
 
 import Animation from './Animation';
+import HelpBox from './HelpBox';
 
 /**
  * Map - Hovedkomponent for kartvisningen
@@ -67,6 +68,7 @@ export default function Map() {
                 ))}
                 
                 <Animation stores={stores} />
+                <HelpBox />
             </MapContainer>
         </div>
     )
