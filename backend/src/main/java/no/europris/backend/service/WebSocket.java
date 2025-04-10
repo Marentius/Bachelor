@@ -21,6 +21,7 @@ public class WebSocket implements WebSocketMessageBrokerConfigurer {
     public void configureMessageBroker(@NonNull MessageBrokerRegistry config) {
         // Setter opp en simpel broker som håndterer meldinger med destinasjonen '/topic'
         config.enableSimpleBroker("/topic");
+        config.setApplicationDestinationPrefixes("/app");
     }
 
     /**
@@ -33,7 +34,7 @@ public class WebSocket implements WebSocketMessageBrokerConfigurer {
         // Oppretter hovedendepunktet for WebSocket-tilkoblinger
         registry.addEndpoint("/ws-receipts")
                 // Tillater kun tilkoblinger fra React-applikasjonen på localhost:3000
-                .setAllowedOrigins("http://localhost:3000");
+                .setAllowedOrigins("*");
     }
 }
 

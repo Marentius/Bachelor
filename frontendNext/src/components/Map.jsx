@@ -6,7 +6,6 @@ import { useState, useEffect } from 'react';
 
 import norwayBorders from '../geoJSON/Norge-S.geojson'
 import stateBorders from '../geoJSON/Fylker-S.geojson'
-import municipalityBorders from '../geoJSON/Kommuner-S.geojson'
 import storeData from '../data/storeData.json'
 import { defaultIcon } from '../icons/Icons';
 
@@ -38,7 +37,7 @@ export default function Map() {
             <MapContainer 
                 className="map-container"
                 center={[65.53, 21.62]}
-                zoom={5.5}
+                zoom={5}
                 scrollWheelZoom={true}
             >
                 <TileLayer
@@ -48,7 +47,7 @@ export default function Map() {
                 
                 <GeoJSON 
                     className="geojson-norway"
-                    data={[norwayBorders, stateBorders, municipalityBorders]}
+                    data={[norwayBorders, stateBorders]}
                 />
                 
                 {/* Itererer gjennom alle butikker og lager markører for hver butikk */}

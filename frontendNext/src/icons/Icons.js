@@ -1,9 +1,8 @@
-
 import L from 'leaflet';
 
 const defaultIcon = L.icon({
-    iconUrl: '/warehouse.png',
-    iconSize: [20, 20]
+    iconUrl: '/warehouseRedDot.png',
+    iconSize: [12, 12]
 });
 
 // Funksjon for å lage blomsterikon basert på kategori
@@ -29,7 +28,7 @@ const createFlowerIcon = (saleSizeCategory) => {
         html: `<img src="/${flower}" class="animated-flower" alt="Blomst" style="width:${size}px; height:${size}px;" />`,
         className: 'transparent-flower',
         iconSize: [size, size],
-        iconAnchor: [size/2, size] // Sentrer ankerpunktet
+        iconAnchor: [size/2, size]
     });
 };
 
