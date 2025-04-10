@@ -51,7 +51,7 @@ public class Reciever {
                 .connectionString(eventHubConnectionString, eventHubName)
                 .consumerGroup("cg-studentweb")
                 .buildConsumerClient();
-        
+
         System.out.println("Event Hub-klient initialisert: " + System.currentTimeMillis() / 1000);
     }
 
@@ -92,14 +92,14 @@ public class Reciever {
 
             // Legger til kategori basert på verdien i feltet
             if (jsonNode.get("receiptTotalIncVat").asDouble() >= 300
-                    && jsonNode.get("receiptTotalIncVat").asDouble() < 800) {
-            //JsonNode er en skrivebeskyttet klasse. Det vil si at vi kan lese fra den, men ikke skrive til den. For å kunne skrive til den må vi type-caste den til ObjectNode.
+                    && jsonNode.get("receiptTotalIncVat").asDouble() < 1000) {
+                // JsonNode er en skrivebeskyttet klasse. Det vil si at vi kan lese fra den, men
+                // ikke skrive til den. For å kunne skrive til den må vi type-caste den til
+                // ObjectNode.
                 ((ObjectNode) jsonNode).put("saleSizeCategory", 2);
-            }
-            else if (receiptTotalIncVat >= 800) {
+            } else if (receiptTotalIncVat >= 1000) {
                 ((ObjectNode) jsonNode).put("saleSizeCategory", 3);
-            }
-            else {
+            } else {
                 ((ObjectNode) jsonNode).put("saleSizeCategory", 1);
             }
 
@@ -115,7 +115,8 @@ public class Reciever {
 
     // Enkel feilhåndtering - logger feilmeldingen
     private void processError(Throwable throwable) {
-        System.out.printf("Feil ved prosessering av event (%s): %s%n", System.currentTimeMillis() / 1000, throwable.getMessage());
+        System.out.printf("Feil ved prosessering av event (%s): %s%n", System.currentTimeMillis() / 1000,
+                throwable.getMessage());
     }
 }
 /**
