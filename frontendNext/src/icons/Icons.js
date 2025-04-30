@@ -2,7 +2,7 @@ import L from 'leaflet';
 
 const defaultIcon = L.icon({
     iconUrl: '/warehouse.png',
-    iconSize: [12, 12]
+    iconSize: [15, 15]
 });
 
 // Funksjon for å lage blomsterikon basert på kategori
