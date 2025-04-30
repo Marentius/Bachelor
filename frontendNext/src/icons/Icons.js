@@ -1,7 +1,7 @@
 import L from 'leaflet';
 
 const defaultIcon = L.icon({
-    iconUrl: '/warehouseRedDot.png',
+    iconUrl: '/warehouse.png',
     iconSize: [12, 12]
 });
 
