@@ -21,7 +21,6 @@ public class WebSocket implements WebSocketMessageBrokerConfigurer {
     public void configureMessageBroker(@NonNull MessageBrokerRegistry config) {
         // Setter opp en simpel broker som håndterer meldinger med destinasjonen '/topic'
         config.enableSimpleBroker("/topic");
-        config.setApplicationDestinationPrefixes("/app");
     }
 
     /**
@@ -35,5 +34,3 @@ public class WebSocket implements WebSocketMessageBrokerConfigurer {
         registry.addEndpoint("/ws-receipts").setAllowedOrigins("*");
     }
 }
-
-// Kilde: https://spring.io/guides/gs/messaging-stomp-websocket

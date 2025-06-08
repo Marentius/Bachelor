@@ -11,5 +11,3 @@ const nextConfig = {
 };
 
 export default nextConfig;
-
-// https://stackoverflow.com/questions/66087740/import-geojson-in-nextjs

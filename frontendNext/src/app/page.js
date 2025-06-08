@@ -3,13 +3,21 @@ import { useMemo } from "react";
 import dynamic from "next/dynamic";
 import '../service/WebSocket'
 
+/**
+ * Hovedkomponent for applikasjonen som viser kartet.
+ * 
+ * Funksjonalitet:
+ * - Laster Map-komponenten dynamisk
+ * - Håndterer WebSocket-tilkobling for sanntids data
+ * - Viser lasteindikator mens kartet initialiseres
+ */
 export default function Home() {
 
   const Map = useMemo(() => dynamic(
     () => import('@/components/Map'),
     { 
       loading: () => <p>Laster kart..</p>,
-      ssr: false
+      ssr: false // Deaktiverer server-side rendering for Map-komponenten
     }
   ), [])
 
@@ -19,5 +27,3 @@ export default function Home() {
     </div>
   );
 }
-
-// https://medium.com/@tomisinabiodun/displaying-a-leaflet-map-in-nextjs-85f86fccc10c

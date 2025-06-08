@@ -1,46 +1,48 @@
 .helpBox {
-    position: absolute;
-    z-index: 500;
-    top: 20px;
-    right: 20px;
-    padding: 20px;
-    background-color: rgb(247, 247, 247);
-    border-radius: 30px;
-    border: solid 1px;
-    color: black;
-    font-size: 14px;
-  }
-  
-  .list {
-    list-style: none;
-  }
-  
-  .list-item {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 8px;
-    align-items: center;
-  }
-  
-  .list-item p {
-    text-align: center;
-    font-size: 14px;
-  }
-  
-  .list-item h2 {
-    text-align: center;
-    margin-bottom: 15px;
-    font-size: 16px;
-  }
-  
-  .list-img {
-    width: 30px;
-    height: 30px;
-    margin-right: 25px;
-  }
+  position: absolute;
+  z-index: 500;
+  top: 20px;
+  right: 20px;
+  padding: 20px;
+  background-color: rgb(247, 247, 247);
+  border-radius: 30px;
+  border: solid 1px;
+  color: black;
+}
 
-  @media (max-width: 768px) {
-    .helpBox {
-        display: none;
-    }
+.list {
+  list-style: none;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+  align-items: center;
+}
+
+.list-item p {
+  text-align: center;
+}
+
+.list-item h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.list-item h3 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.list-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 25px;
+}
+
+@media (max-width: 768px) {
+  .helpBox {
+      display: none;
   }
+}

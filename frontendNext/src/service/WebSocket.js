@@ -1,12 +1,13 @@
 import { Client } from '@stomp/stompjs';
 import EventEmitter from 'events';
 
+// EventEmitter brukes for å sende eventer til Animation.jsx
 export const eventEmitter = new EventEmitter();
 
 // Oppretter en STOMP-klient
 const stompClient = new Client({
     // Kobler til WebSocket-endepunktet med backend deployment url 
-    brokerURL: 'wss://bachelor-backend.blackground-ee5ef893.northeurope.azurecontainerapps.io/ws-receipts'
+    brokerURL: 'ws://localhost:8080/ws-receipts'
 });
 
 // Kjøres når tilkoblingen er etablert
@@ -14,11 +15,12 @@ stompClient.onConnect = (frame) => {
     // Logger tilkoblingsinformasjon til nettleserkonsollen
     console.log('Tilkoblet: ' + frame);
     
-    // Abonnerer på events fra Event Hub
+    // Abonnerer på events fra Event Hubs
     // Dette matcher destinasjonen i backend: messagingTemplate.convertAndSend("/topic/receipts", ...)
     stompClient.subscribe('/topic/receipts', (message) => {
         const event = JSON.parse(message.body);
-        // Sender event til alle lyttere
+        
+        // Sender event til alle lyttere (Animation.jsx)
         eventEmitter.emit('sale', event);
     });
 };
@@ -34,10 +36,7 @@ stompClient.onStompError = (frame) => {
     console.error('Ytterligere detaljer: ' + frame.body);
 };
 
-// Starter tilkoblingen
+// Starter WebSocket-tilkoblingen
 stompClient.activate();
 
 export default stompClient;
-
-
-//Kilde: https://spring.io/guides/gs/messaging-stomp-websocket

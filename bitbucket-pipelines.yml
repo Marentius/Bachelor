@@ -1,0 +1,59 @@
+image: maven:3.9.9-sapmachine-21
+
+pipelines:
+  default:
+    - step:
+        name: Build & Deploy Backend
+        services:
+          - docker
+        caches:
+          - docker
+          - maven
+        script:
+          - echo "🔐 Installerer Azure CLI..."
+          - curl -sL https://aka.ms/InstallAzureCLIDeb | bash 
+
+          - echo "👷🏻 Bygger Maven-prosjektet..."
+          - mkdir -p backend/src/main/resources
+          - echo "azure.eventhub.connection-string=${AZURE_EVENTHUB_CONNECTION_STRING}" > backend/src/main/resources/application.properties
+          - echo "azure.eventhub.name=${AZURE_EVENTHUB_NAME}" >> backend/src/main/resources/application.properties
+          - cd backend && mvn clean package
+
+          - echo "🔑 Logger inn i Azure med service principal..."
+          - az login --service-principal --username "$AZURE_CLIENT_ID" --password "$AZURE_CLIENT_SECRET" --tenant "$AZURE_TENANT_ID"
+
+          - echo "🐳 Bygger Docker image..."
+          - docker build -t bachelor-backend .
+          - docker tag bachelor-backend $ACR_NAME_LOWER.azurecr.io/bachelor-backend:$BITBUCKET_COMMIT
+
+          - echo "🔓 Logger inn i ACR..."
+          - az acr login --name $ACR_NAME
+
+          - echo "📤 Pusher image til ACR..."
+          - docker push $ACR_NAME_LOWER.azurecr.io/bachelor-backend:$BITBUCKET_COMMIT
+
+          - echo "📦 Oppretter resource group (hvis den ikke finnes)..."
+          - az group create --name $AZURE_RESOURCE_GROUP --location $AZURE_LOCATION
+
+          - echo "🏗️ Oppretter Container App Environment..."
+          - az containerapp env create --name sales-env --resource-group $AZURE_RESOURCE_GROUP --location $AZURE_LOCATION
+
+          - echo "🚀 Oppretter eller oppdaterer Container App..."
+          - az containerapp create --name bachelor-backend --resource-group $AZURE_RESOURCE_GROUP --environment sales-env --image $ACR_NAME_LOWER.azurecr.io/bachelor-backend:$BITBUCKET_COMMIT --target-port 8080 --ingress external --registry-server $ACR_NAME_LOWER.azurecr.io --registry-username "$AZURE_CLIENT_ID" --registry-password "$AZURE_CLIENT_SECRET" --query properties.configuration.ingress.fqdn
+
+    - step:
+        name: Build & Deploy Frontend
+        image: node:23
+        caches:
+          - node
+        script:
+          - echo "📦 Bygger frontend..."
+          - cd frontend
+          - npm install
+          - npx next build
+          
+          - echo "🚀 Deployer til Azure Static Web Apps..."
+          - npm install -g @azure/static-web-apps-cli
+          - swa deploy ./out --deployment-token=$FRONTEND_TOKEN
+
+          - echo "✅ Deploy fullført!"

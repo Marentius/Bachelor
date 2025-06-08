@@ -5,7 +5,6 @@ import com.azure.messaging.eventhubs.models.EventPosition;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
-import org.springframework.stereotype.Component;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
@@ -16,59 +15,73 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
-// Denne klassen er ansvarlig for å motta events fra Azure Event Hub og videresende dem til WebSocket
-
-@Component
-@EnableScheduling // Aktiverer scheduling-funksjonalitet
+/**
+ * EventHub-mottaker som håndterer kommunikasjon mellom Azure Event Hubs og WebSocket-klienter.
+ * Denne komponenten er ansvarlig for å:
+ * 1. Koble til Azure Event Hubs
+ * 2. Lytte etter nye events
+ * 3. Prosessere mottatte events
+ * 4. Videresende prosesserte events til tilkoblede WebSocket-klienter
+ */
+//@Component
+@EnableScheduling
 public class Reciever {
-    // Henter connection string fra application.properties
+    
+    // Connection string og navn for Azure Event Hub hentes fra BitBucket variabler
     @Value("${azure.eventhub.connection-string}")
     private String eventHubConnectionString;
 
-    // Henter event hub navn fra application.properties
     @Value("${azure.eventhub.name}")
     private String eventHubName;
 
-    // Klienten som brukes til å koble mot Event Hub
+    @Value("${azure.eventhub.consumerGroup}")
+    private String consumerGroup;
+
+    // Azure Event Hubs konsumerings-klient for å motta events
     private EventHubConsumerClient eventHubConsumerClient;
 
-    // Template for å sende meldinger til WebSocket-klienter
+    // Spring WebSocket template for å sende meldinger til tilkoblede klienter
     private final SimpMessagingTemplate messagingTemplate;
 
-    // For JSON-håndtering
+    // Jackson ObjectMapper for JSON-håndtering
     private final ObjectMapper objectMapper = new ObjectMapper();
 
-    // Konstruktør som får messagingTemplate injisert av Spring
+    /**
+     * Konstruktør som initialiserer WebSocket-messaging template
+     * @param messagingTemplate template'n 
+     */
     public Reciever(SimpMessagingTemplate messagingTemplate) {
         this.messagingTemplate = messagingTemplate;
     }
 
-    // Kalles automatisk etter at klassen er opprettet
+    /**
+     * Initialiserer Event Hub-klienten etter at komponenten er opprettet.
+     * Setter opp tilkobling til Event Hub med spesifisert consumer group.
+     */
     @PostConstruct
     public void initialize() {
-        // Oppretter en Event Hub klient med gitt konfigurasjon
         eventHubConsumerClient = new EventHubClientBuilder()
                 .connectionString(eventHubConnectionString, eventHubName)
-                .consumerGroup("cg-studentweb")
+                .consumerGroup(consumerGroup)
                 .buildConsumerClient();
-
-        System.out.println("Event Hub-klient initialisert: " + System.currentTimeMillis() / 1000);
     }
 
-    // Planlagt oppgave som kjører med fast intervall
-    // fixedDelay på 1 sekund fra en oppgave er ferdig til neste starter
+    /**
+     * Planlagt oppgave som kjører hvert sekund for å hente nye events.
+     * Bruker fixedDelay for å sikre at neste kjøring starter 1 sekund etter at forrige er ferdig.
+     */
     @Scheduled(fixedDelay = 1000)
-    public void pollEventsWithFixedDelay() {
-        System.out.println("Polling events med fixed delay: " + System.currentTimeMillis() / 1000);
-        pollEvents();
+    public void getEventsWithFixedDelay() {
+        getEvents();
     }
 
-    // Metode for å hente events fra Event Hub
-    private void pollEvents() {
+    /**
+     * Henter events fra alle partisjoner i Event Hub.
+     * For hver partisjon hentes de 100 nyeste eventene.
+     */
+    private void getEvents() {
         try {
-            // Henter liste over alle partisjoner i Event Hub
             for (String partitionId : eventHubConsumerClient.getPartitionIds()) {
-                // For hver partisjon, hent events
                 eventHubConsumerClient
                         .receiveFromPartition(partitionId, 100, EventPosition.latest())
                         .forEach(event -> processEvent(event.getData()));
@@ -78,24 +91,27 @@ public class Reciever {
         }
     }
 
-    // Håndterer hvert enkelt event som mottas
-    private void processEvent(EventData event) {
+    /**
+     * Prosesserer et enkelt event fra Event Hubs.
+     * Legger til kategorisering basert på kjøpsbeløp og videresender til WebSocket-klienter.
+     * 
+     * Kategorisering:
+     * - Kategori 1: Beløp < 300
+     * - Kategori 2: Beløp >= 300 og < 1000
+     * - Kategori 3: Beløp >= 1000
+     * 
+     * @param event EventData-objektet som skal prosesseres
+     */
+    private void processEvent(EventData event) { 
         try {
-            // For å unngå og opprette Java-objekter bruker vi JsonNode som lar oss jobbe
-            // dynamisk med Json-data.
-
-            // Oppretter ett JsonNode objekt og konverterer event-data til string
             JsonNode jsonNode = objectMapper.readTree(event.getBodyAsString());
-
-            // Henter ut feltet vi skal bruke for å kategorisere dataen som double
             Double receiptTotalIncVat = jsonNode.path("receiptTotalIncVat").asDouble();
 
-            // Legger til kategori basert på verdien i feltet
-            if (jsonNode.get("receiptTotalIncVat").asDouble() >= 300
-                    && jsonNode.get("receiptTotalIncVat").asDouble() < 1000) {
-                // JsonNode er en skrivebeskyttet klasse. Det vil si at vi kan lese fra den, men
-                // ikke skrive til den. For å kunne skrive til den må vi type-caste den til
-                // ObjectNode.
+            // Ignorerer negative salg og salg som går i null
+            if (receiptTotalIncVat <= 0) return;
+
+            // Kategoriserer kjøpet basert på beløp
+            if (receiptTotalIncVat >= 300 && receiptTotalIncVat < 1000) {
                 ((ObjectNode) jsonNode).put("saleSizeCategory", 2);
             } else if (receiptTotalIncVat >= 1000) {
                 ((ObjectNode) jsonNode).put("saleSizeCategory", 3);
@@ -103,28 +119,21 @@ public class Reciever {
                 ((ObjectNode) jsonNode).put("saleSizeCategory", 1);
             }
 
-            // Logger til konsoll
             System.out.println("Mottok event med innhold: " + jsonNode.toString());
-
-            // Sender eventet til alle tilkoblede WebSocket-klienter på /topic/receipts
             messagingTemplate.convertAndSend("/topic/receipts", jsonNode);
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
     }
 
-    // Enkel feilhåndtering - logger feilmeldingen
+    /**
+     * Håndterer feil som oppstår under event-prosessering.
+     * Logger feilmeldingen med tidsstempel.
+     * 
+     * @param throwable Feilen som oppstod
+     */
     private void processError(Throwable throwable) {
-        System.out.printf("Feil ved prosessering av event (%s): %s%n", System.currentTimeMillis() / 1000,
+        System.out.println("Feil ved prosessering av event (" + System.currentTimeMillis() / 1000 + "): " +
                 throwable.getMessage());
     }
 }
-/**
- * Kilder:
- * https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-java-get-started-send?tabs=passwordless%2Croles-azure-portal
- * https://learn.microsoft.com/en-us/azure/developer/java/spring-framework/configure-spring-cloud-stream-binder-java-app-azure-event-hub?toc=%2Fazure%2Fevent-hubs%2FTOC.json
- * https://learn.microsoft.com/en-us/java/api/com.azure.messaging.eventhubs.eventhubconsumerclient?view=azure-java-stable
- * https://medium.com/@salvipriya97/jsonnode-explained-with-examples-d0c05324f61d
- * https://www.baeldung.com/jackson-json-node-tree-model
- * https://www.baeldung.com/spring-scheduled-tasks
- */

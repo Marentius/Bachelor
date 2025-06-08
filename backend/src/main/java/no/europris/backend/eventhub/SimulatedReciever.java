@@ -8,7 +8,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
  
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
  
@@ -52,4 +51,7 @@ public class SimulatedReciever {
         // Logger antall salg som ble generert
         System.out.println("Genererte 5 salg: " + System.currentTimeMillis() / 1000);
     }
-} 
+  {
+    
+  }
+}

@@ -22,7 +22,7 @@
 
 .animated-flower {
   animation-name: floatUp;
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-timing-function: ease-in-out;
 }
 
@@ -41,5 +41,19 @@
     transform: translateY(-100%); 
     opacity: 0;
     scale: 1;
+  }
+}
+
+.logo {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 250px;
+  z-index: 500;
+}
+
+@media (max-width: 768px) {
+  .logo {
+      display: none;
   }
 }

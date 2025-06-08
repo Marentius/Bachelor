@@ -12,13 +12,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Europris Visualization",
-  description: "Made by Vetle Marentius Nilsen, Robin Enerhaugen, Sondre Kasin Hammerborg and Emilie Ruud"
+  title: "Visualisering av salg i sanntid på web",
+  description: "Utviklet av Vetle Marentius Nilsen"
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="nb">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
