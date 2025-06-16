@@ -10,7 +10,8 @@
     "municipality": "EVJE OG HORNNES",
     "countryRegion": "Sørlandet",
     "postalCity": "EVJE",
-    "postalCode": 4735
+    "postalCode": 4735,
+    "country": "NO"
   },
   {
     "storeNo": 363,
@@ -23,7 +24,8 @@
     "municipality": "SØNDRE LAND",
     "countryRegion": "Østlandet",
     "postalCity": "HOV",
-    "postalCode": 2860
+    "postalCode": 2860,
+    "country": "NO"
   },
   {
     "storeNo": 364,
@@ -36,7 +38,8 @@
     "municipality": "BERGEN",
     "countryRegion": "Vestlandet",
     "postalCity": "INDRE ARNA",
-    "postalCode": 5260
+    "postalCode": 5260,
+    "country": "NO"
   },
   {
     "storeNo": 385,
@@ -49,7 +52,8 @@
     "municipality": "DRAMMEN",
     "countryRegion": "Østlandet",
     "postalCity": "DRAMMEN",
-    "postalCode": 3032
+    "postalCode": 3032,
+    "country": "NO"
   },
   {
     "storeNo": 428,
@@ -62,7 +66,8 @@
     "municipality": "RØROS",
     "countryRegion": "Trøndelag",
     "postalCity": "RØROS",
-    "postalCode": 7374
+    "postalCode": 7374,
+    "country": "NO"
   },
   {
     "storeNo": 486,
@@ -75,7 +80,8 @@
     "municipality": "GLOPPEN",
     "countryRegion": "Vestlandet",
     "postalCity": "SANDANE",
-    "postalCode": 6823
+    "postalCode": 6823,
+    "country": "NO"
   },
   {
     "storeNo": 368,
@@ -88,7 +94,8 @@
     "municipality": "SUNNDAL",
     "countryRegion": "Vestlandet",
     "postalCity": "SUNNDALSØRA",
-    "postalCode": 6600
+    "postalCode": 6600,
+    "country": "NO"
   },
   {
     "storeNo": 351,
@@ -101,7 +108,8 @@
     "municipality": "SAUDA",
     "countryRegion": "Vestlandet",
     "postalCity": "SAUDA",
-    "postalCode": 4200
+    "postalCode": 4200,
+    "country": "NO"
   },
   {
     "storeNo": 485,
@@ -114,7 +122,8 @@
     "municipality": "STRYN",
     "countryRegion": "Vestlandet",
     "postalCity": "STRYN",
-    "postalCode": 6783
+    "postalCode": 6783,
+    "country": "NO"
   },
   {
     "storeNo": 575,
@@ -127,7 +136,8 @@
     "municipality": "SANDNES",
     "countryRegion": "Vestlandet",
     "postalCity": "SANDNES",
-    "postalCode": 4323
+    "postalCode": 4323,
+    "country": "NO"
   },
   {
     "storeNo": 277,
@@ -140,7 +150,8 @@
     "municipality": "HITRA",
     "countryRegion": "Trøndelag",
     "postalCity": "HITRA",
-    "postalCode": 7240
+    "postalCode": 7240,
+    "country": "NO"
   },
   {
     "storeNo": 376,
@@ -153,7 +164,8 @@
     "municipality": "FLÅ",
     "countryRegion": "Østlandet",
     "postalCity": "FLÅ",
-    "postalCode": 3539
+    "postalCode": 3539,
+    "country": "NO"
   },
   {
     "storeNo": 4,
@@ -166,7 +178,8 @@
     "municipality": "",
     "countryRegion": "",
     "postalCity": "",
-    "postalCode": null
+    "postalCode": null,
+    "country": "NO"
   },
   {
     "storeNo": 335,
@@ -179,7 +192,8 @@
     "municipality": "MOLDE",
     "countryRegion": "Vestlandet",
     "postalCity": "MOLDE",
-    "postalCode": 6415
+    "postalCode": 6415,
+    "country": "NO"
   },
   {
     "storeNo": 369,
@@ -192,7 +206,8 @@
     "municipality": "ASKØY",
     "countryRegion": "Vestlandet",
     "postalCity": "KLEPPESTØ",
-    "postalCode": 5300
+    "postalCode": 5300,
+    "country": "NO"
   },
   {
     "storeNo": 378,
@@ -205,7 +220,8 @@
     "municipality": "EIDSKOG",
     "countryRegion": "Østlandet",
     "postalCity": "SKOTTERUD",
-    "postalCode": 2230
+    "postalCode": 2230,
+    "country": "NO"
   },
   {
     "storeNo": 490,
@@ -218,7 +234,8 @@
     "municipality": "NORD-FRON",
     "countryRegion": "Østlandet",
     "postalCity": "VINSTRA",
-    "postalCode": 2640
+    "postalCode": 2640,
+    "country": "NO"
   },
   {
     "storeNo": 61,
@@ -231,7 +248,8 @@
     "municipality": "BRØNNØY",
     "countryRegion": "Nord-Norge",
     "postalCity": "BRØNNØYSUND",
-    "postalCode": 8907
+    "postalCode": 8907,
+    "country": "NO"
   },
   {
     "storeNo": 398,
@@ -244,7 +262,8 @@
     "municipality": "NORDRE FOLLO",
     "countryRegion": "Østlandet",
     "postalCity": "SKI",
-    "postalCode": 1400
+    "postalCode": 1400,
+    "country": "NO"
   },
   {
     "storeNo": 399,
@@ -257,7 +276,8 @@
     "municipality": "FREDRIKSTAD",
     "countryRegion": "Østlandet",
     "postalCity": "KRÅKERØY",
-    "postalCode": 1671
+    "postalCode": 1671,
+    "country": "NO"
   },
   {
     "storeNo": 359,
@@ -270,7 +290,8 @@
     "municipality": "ULLENSAKER",
     "countryRegion": "Østlandet",
     "postalCity": "JESSHEIM",
-    "postalCode": 2050
+    "postalCode": 2050,
+    "country": "NO"
   },
   {
     "storeNo": 23550,
@@ -283,7 +304,8 @@
     "municipality": "",
     "countryRegion": "",
     "postalCity": "",
-    "postalCode": null
+    "postalCode": null,
+    "country": "NO"
   },
   {
     "storeNo": 391,
@@ -296,7 +318,8 @@
     "municipality": "INDRE ØSTFOLD",
     "countryRegion": "Østlandet",
     "postalCity": "SPYDEBERG",
-    "postalCode": 1820
+    "postalCode": 1820,
+    "country": "NO"
   },
   {
     "storeNo": 408,
@@ -309,7 +332,8 @@
     "municipality": "LØTEN",
     "countryRegion": "Østlandet",
     "postalCity": "LØTEN",
-    "postalCode": 2340
+    "postalCode": 2340,
+    "country": "NO"
   },
   {
     "storeNo": 370,
@@ -322,7 +346,8 @@
     "municipality": "BERGEN",
     "countryRegion": "Vestlandet",
     "postalCity": "SANDSLI",
-    "postalCode": 5253
+    "postalCode": 5253,
+    "country": "NO"
   },
   {
     "storeNo": 420,
@@ -335,7 +360,8 @@
     "municipality": "STAVANGER",
     "countryRegion": "Vestlandet",
     "postalCity": "STAVANGER",
-    "postalCode": 4033
+    "postalCode": 4033,
+    "country": "NO"
   },
   {
     "storeNo": 62,
@@ -348,7 +374,8 @@
     "municipality": "HAMMERFEST",
     "countryRegion": "Nord-Norge",
     "postalCity": "HAMMERFEST",
-    "postalCode": 9600
+    "postalCode": 9600,
+    "country": "NO"
   },
   {
     "storeNo": 421,
@@ -361,7 +388,8 @@
     "municipality": "LØRENSKOG",
     "countryRegion": "Østlandet",
     "postalCity": "LØRENSKOG",
-    "postalCode": 1470
+    "postalCode": 1470,
+    "country": "NO"
   },
   {
     "storeNo": 422,
@@ -374,7 +402,8 @@
     "municipality": "ÅS",
     "countryRegion": "Østlandet",
     "postalCity": "VINTERBRO",
-    "postalCode": 1407
+    "postalCode": 1407,
+    "country": "NO"
   },
   {
     "storeNo": 409,
@@ -387,7 +416,8 @@
     "municipality": "LARVIK",
     "countryRegion": "Østlandet",
     "postalCity": "LARVIK",
-    "postalCode": 3261
+    "postalCode": 3261,
+    "country": "NO"
   },
   {
     "storeNo": 411,
@@ -400,7 +430,8 @@
     "municipality": "NORD-ODAL",
     "countryRegion": "Østlandet",
     "postalCity": "SAGSTUA",
-    "postalCode": 2120
+    "postalCode": 2120,
+    "country": "NO"
   },
   {
     "storeNo": 424,
@@ -413,7 +444,8 @@
     "municipality": "OSTERØY",
     "countryRegion": "Vestlandet",
     "postalCity": "LONEVÅG",
-    "postalCode": 5282
+    "postalCode": 5282,
+    "country": "NO"
   },
   {
     "storeNo": 423,
@@ -426,7 +458,8 @@
     "municipality": "GRUE",
     "countryRegion": "Østlandet",
     "postalCity": "KIRKENÆR",
-    "postalCode": 2260
+    "postalCode": 2260,
+    "country": "NO"
   },
   {
     "storeNo": 9,
@@ -439,7 +472,8 @@
     "municipality": "LINDESNES",
     "countryRegion": "Sørlandet",
     "postalCity": "MANDAL",
-    "postalCode": 4515
+    "postalCode": 4515,
+    "country": "NO"
   },
   {
     "storeNo": 403,
@@ -452,7 +486,8 @@
     "municipality": "SKIPTVET",
     "countryRegion": "Østlandet",
     "postalCity": "SKIPTVET",
-    "postalCode": 1816
+    "postalCode": 1816,
+    "country": "NO"
   },
   {
     "storeNo": 458,
@@ -465,7 +500,8 @@
     "municipality": "OSLO",
     "countryRegion": "Østlandet",
     "postalCity": "OSLO",
-    "postalCode": 1051
+    "postalCode": 1051,
+    "country": "NO"
   },
   {
     "storeNo": 447,
@@ -478,7 +514,8 @@
     "municipality": "ARENDAL",
     "countryRegion": "Sørlandet",
     "postalCity": "NEDENES",
-    "postalCode": 4823
+    "postalCode": 4823,
+    "country": "NO"
   },
   {
     "storeNo": 63,
@@ -491,7 +528,8 @@
     "municipality": "STAVANGER",
     "countryRegion": "Vestlandet",
     "postalCity": "HAFRSFJORD",
-    "postalCode": 4042
+    "postalCode": 4042,
+    "country": "NO"
   },
   {
     "storeNo": 457,
@@ -504,7 +542,8 @@
     "municipality": "OSLO",
     "countryRegion": "Østlandet",
     "postalCity": "OSLO",
-    "postalCode": 1281
+    "postalCode": 1281,
+    "country": "NO"
   },
   {
     "storeNo": 460,
@@ -517,7 +556,8 @@
     "municipality": "GJØVIK",
     "countryRegion": "Østlandet",
     "postalCity": "GJØVIK",
-    "postalCode": 2815
+    "postalCode": 2815,
+    "country": "NO"
   },
   {
     "storeNo": 459,
@@ -530,7 +570,8 @@
     "municipality": "TROMSØ",
     "countryRegion": "Nord-Norge",
     "postalCity": "TROMSDALEN",
-    "postalCode": 9020
+    "postalCode": 9020,
+    "country": "NO"
   },
   {
     "storeNo": 433,
@@ -543,7 +584,8 @@
     "municipality": "HADSEL",
     "countryRegion": "Nord-Norge",
     "postalCity": "STOKMARKNES",
-    "postalCode": 8450
+    "postalCode": 8450,
+    "country": "NO"
   },
   {
     "storeNo": 461,
@@ -556,7 +598,8 @@
     "municipality": "STANGE",
     "countryRegion": "Østlandet",
     "postalCity": "OTTESTAD",
-    "postalCode": 2312
+    "postalCode": 2312,
+    "country": "NO"
   },
   {
     "storeNo": 462,
@@ -569,7 +612,8 @@
     "municipality": "DRAMMEN",
     "countryRegion": "Østlandet",
     "postalCity": "DRAMMEN",
-    "postalCode": 3044
+    "postalCode": 3044,
+    "country": "NO"
   },
   {
     "storeNo": 464,
@@ -582,7 +626,8 @@
     "municipality": "GISKE",
     "countryRegion": "Vestlandet",
     "postalCity": "VALDERØYA",
-    "postalCode": 6050
+    "postalCode": 6050,
+    "country": "NO"
   },
   {
     "storeNo": 407,
@@ -595,7 +640,8 @@
     "municipality": "ENEBAKK",
     "countryRegion": "Østlandet",
     "postalCity": "YTRE ENEBAKK",
-    "postalCode": 1914
+    "postalCode": 1914,
+    "country": "NO"
   },
   {
     "storeNo": 410,
@@ -608,7 +654,8 @@
     "municipality": "SANDEFJORD",
     "countryRegion": "Østlandet",
     "postalCity": "SANDEFJORD",
-    "postalCode": 3221
+    "postalCode": 3221,
+    "country": "NO"
   },
   {
     "storeNo": 463,
@@ -621,7 +668,8 @@
     "municipality": "FREDRIKSTAD",
     "countryRegion": "Østlandet",
     "postalCity": "GAMLE FREDRIKSTAD",
-    "postalCode": 1639
+    "postalCode": 1639,
+    "country": "NO"
   },
   {
     "storeNo": 418,
@@ -634,7 +682,8 @@
     "municipality": "ASKØY",
     "countryRegion": "Vestlandet",
     "postalCity": "STRUSSHAMN",
-    "postalCode": 5302
+    "postalCode": 5302,
+    "country": "NO"
   },
   {
     "storeNo": 469,
@@ -647,7 +696,8 @@
     "municipality": "BODØ",
     "countryRegion": "Nord-Norge",
     "postalCity": "BODØ",
-    "postalCode": 8008
+    "postalCode": 8008,
+    "country": "NO"
   },
   {
     "storeNo": 472,
@@ -660,8 +710,8 @@
     "municipality": "OSLO",
     "countryRegion": "Østlandet",
     "postalCity": "OSLO",
-    "postalCode": 963
-  },
+    "postalCode": 96,
+  "country": "NO"  },
   {
     "storeNo": 475,
     "name": "EP ÅGOTNES",
@@ -673,7 +723,8 @@
     "municipality": "ØYGARDEN",
     "countryRegion": "Vestlandet",
     "postalCity": "ÅGOTNES",
-    "postalCode": 5363
+    "postalCode": 5363,
+    "country": "NO"
   },
   {
     "storeNo": 476,
@@ -686,7 +737,8 @@
     "municipality": "STRANDA",
     "countryRegion": "Vestlandet",
     "postalCity": "STRANDA",
-    "postalCode": 6200
+    "postalCode": 6200,
+    "country": "NO"
   },
   {
     "storeNo": 477,
@@ -699,7 +751,8 @@
     "municipality": "JEVNAKER",
     "countryRegion": "Østlandet",
     "postalCity": "JEVNAKER",
-    "postalCode": 3520
+    "postalCode": 3520,
+    "country": "NO"
   },
   {
     "storeNo": 473,
@@ -712,7 +765,8 @@
     "municipality": "ANDØY",
     "countryRegion": "Nord-Norge",
     "postalCity": "ANDENES",
-    "postalCode": 8480
+    "postalCode": 8480,
+    "country": "NO"
   },
   {
     "storeNo": 425,
@@ -725,7 +779,8 @@
     "municipality": "RÅDE",
     "countryRegion": "Østlandet",
     "postalCity": "RÅDE",
-    "postalCode": 1640
+    "postalCode": 1640,
+    "country": "NO"
   },
   {
     "storeNo": 404,
@@ -738,7 +793,8 @@
     "municipality": "HOL",
     "countryRegion": "Østlandet",
     "postalCity": "GEILO",
-    "postalCode": 3580
+    "postalCode": 3580,
+    "country": "NO"
   },
   {
     "storeNo": 481,
@@ -751,7 +807,8 @@
     "municipality": "LILLESTRØM",
     "countryRegion": "Østlandet",
     "postalCity": "STRØMMEN",
-    "postalCode": 2010
+    "postalCode": 2010,
+    "country": "NO"
   },
   {
     "storeNo": 478,
@@ -764,8 +821,8 @@
     "municipality": "OSLO",
     "countryRegion": "Østlandet",
     "postalCity": "OSLO",
-    "postalCode": 985
-  },
+    "postalCode": 98,
+  "country": "NO"  },
   {
     "storeNo": 482,
     "name": "EP VORMSUND",
@@ -777,7 +834,8 @@
     "municipality": "NES",
     "countryRegion": "Østlandet",
     "postalCity": "VORMSUND",
-    "postalCode": 2160
+    "postalCode": 2160,
+    "country": "NO"
   },
   {
     "storeNo": 483,
@@ -790,7 +848,8 @@
     "municipality": "BERGEN",
     "countryRegion": "Vestlandet",
     "postalCity": "LAKSEVÅG",
-    "postalCode": 5163
+    "postalCode": 5163,
+    "country": "NO"
   },
   {
     "storeNo": 480,
@@ -803,7 +862,8 @@
     "municipality": "RÆLINGEN",
     "countryRegion": "Østlandet",
     "postalCity": "RÆLINGEN",
-    "postalCode": 2005
+    "postalCode": 2005,
+    "country": "NO"
   },
   {
     "storeNo": 432,
@@ -816,7 +876,8 @@
     "municipality": "BAMBLE",
     "countryRegion": "Østlandet",
     "postalCity": "STATHELLE",
-    "postalCode": 3960
+    "postalCode": 3960,
+    "country": "NO"
   },
   {
     "storeNo": 479,
@@ -829,7 +890,8 @@
     "municipality": "GRAN",
     "countryRegion": "Østlandet",
     "postalCity": "GRAN",
-    "postalCode": 2750
+    "postalCode": 2750,
+    "country": "NO"
   },
   {
     "storeNo": 495,
@@ -842,7 +904,8 @@
     "municipality": "ØRLAND",
     "countryRegion": "Trøndelag",
     "postalCity": "BREKSTAD",
-    "postalCode": 7130
+    "postalCode": 7130,
+    "country": "NO"
   },
   {
     "storeNo": 496,
@@ -855,7 +918,8 @@
     "municipality": "STAVANGER",
     "countryRegion": "Vestlandet",
     "postalCity": "STAVANGER",
-    "postalCode": 4027
+    "postalCode": 4027,
+    "country": "NO"
   },
   {
     "storeNo": 500,
@@ -868,7 +932,8 @@
     "municipality": "BERGEN",
     "countryRegion": "Vestlandet",
     "postalCity": "KOKSTAD",
-    "postalCode": 5257
+    "postalCode": 5257,
+    "country": "NO"
   },
   {
     "storeNo": 509,
@@ -881,7 +946,8 @@
     "municipality": "SULA",
     "countryRegion": "Vestlandet",
     "postalCity": "LANGEVÅG",
-    "postalCode": 6030
+    "postalCode": 6030,
+    "country": "NO"
   },
   {
     "storeNo": 508,
@@ -894,7 +960,8 @@
     "municipality": "FJALER",
     "countryRegion": "Vestlandet",
     "postalCity": "DALE I SUNNFJORD",
-    "postalCode": 6963
+    "postalCode": 6963,
+    "country": "NO"
   },
   {
     "storeNo": 617,
@@ -907,7 +974,8 @@
     "municipality": "STJØRDAL",
     "countryRegion": "Trøndelag",
     "postalCity": "STJØRDAL",
-    "postalCode": 7503
+    "postalCode": 7503,
+    "country": "NO"
   },
   {
     "storeNo": 493,
@@ -920,7 +988,8 @@
     "municipality": "ÅRDAL",
     "countryRegion": "Vestlandet",
     "postalCity": "ØVRE ÅRDAL",
-    "postalCode": 6884
+    "postalCode": 6884,
+    "country": "NO"
   },
   {
     "storeNo": 578,
@@ -933,7 +1002,8 @@
     "municipality": "MOLDE",
     "countryRegion": "Vestlandet",
     "postalCity": "MOLDE",
-    "postalCode": 6415
+    "postalCode": 6415,
+    "country": "NO"
   },
   {
     "storeNo": 571,
@@ -946,7 +1016,8 @@
     "municipality": "RISØR",
     "countryRegion": "Sørlandet",
     "postalCity": "RISØR",
-    "postalCode": 4950
+    "postalCode": 4950,
+    "country": "NO"
   },
   {
     "storeNo": 494,
@@ -959,7 +1030,8 @@
     "municipality": "GRONG",
     "countryRegion": "Trøndelag",
     "postalCity": "GRONG",
-    "postalCode": 7870
+    "postalCode": 7870,
+    "country": "NO"
   },
   {
     "storeNo": 581,
@@ -972,7 +1044,8 @@
     "municipality": "LILLEHAMMER",
     "countryRegion": "Østlandet",
     "postalCity": "LILLEHAMMER",
-    "postalCode": 2619
+    "postalCode": 2619,
+    "country": "NO"
   },
   {
     "storeNo": 492,
@@ -985,7 +1058,8 @@
     "municipality": "MELØY",
     "countryRegion": "Nord-Norge",
     "postalCity": "ØRNES",
-    "postalCode": 8150
+    "postalCode": 8150,
+    "country": "NO"
   },
   {
     "storeNo": 580,
@@ -998,7 +1072,8 @@
     "municipality": "ÅLESUND",
     "countryRegion": "Vestlandet",
     "postalCity": "SKODJE",
-    "postalCode": 6260
+    "postalCode": 6260,
+    "country": "NO"
   },
   {
     "storeNo": 800,
@@ -1011,7 +1086,8 @@
     "municipality": "MOSS",
     "countryRegion": "Østlandet",
     "postalCity": "MOSS",
-    "postalCode": 1599
+    "postalCode": 1599,
+    "country": "NO"
   },
   {
     "storeNo": 585,
@@ -1024,7 +1100,8 @@
     "municipality": "KLEPP",
     "countryRegion": "Vestlandet",
     "postalCity": "KLEPP STASJON",
-    "postalCode": 4353
+    "postalCode": 4353,
+    "country": "NO"
   },
   {
     "storeNo": 584,
@@ -1037,7 +1114,8 @@
     "municipality": "BÆRUM",
     "countryRegion": "Østlandet",
     "postalCity": "RYKKINN",
-    "postalCode": 1348
+    "postalCode": 1348,
+    "country": "NO"
   },
   {
     "storeNo": 373,
@@ -1050,7 +1128,8 @@
     "municipality": "FAUSKE",
     "countryRegion": "Nord-Norge",
     "postalCity": "FAUSKE",
-    "postalCode": 8208
+    "postalCode": 8208,
+    "country": "NO"
   },
   {
     "storeNo": 583,
@@ -1063,7 +1142,8 @@
     "municipality": "SANDEFJORD",
     "countryRegion": "Østlandet",
     "postalCity": "STOKKE",
-    "postalCode": 3160
+    "postalCode": 3160,
+    "country": "NO"
   },
   {
     "storeNo": 572,
@@ -1076,7 +1156,8 @@
     "municipality": "SKIEN",
     "countryRegion": "Østlandet",
     "postalCity": "SKIEN",
-    "postalCode": 3735
+    "postalCode": 3735,
+    "country": "NO"
   },
   {
     "storeNo": 591,
@@ -1089,7 +1170,8 @@
     "municipality": "SANDNES",
     "countryRegion": "Vestlandet",
     "postalCity": "SANDNES",
-    "postalCode": 4313
+    "postalCode": 4313,
+    "country": "NO"
   },
   {
     "storeNo": 593,
@@ -1102,7 +1184,8 @@
     "municipality": "NANNESTAD",
     "countryRegion": "Østlandet",
     "postalCity": "NANNESTAD",
-    "postalCode": 2030
+    "postalCode": 2030,
+    "country": "NO"
   },
   {
     "storeNo": 497,
@@ -1115,7 +1198,8 @@
     "municipality": "TINN",
     "countryRegion": "Østlandet",
     "postalCity": "RJUKAN",
-    "postalCode": 3660
+    "postalCode": 3660,
+    "country": "NO"
   },
   {
     "storeNo": 604,
@@ -1128,8 +1212,8 @@
     "municipality": "OSLO",
     "countryRegion": "Østlandet",
     "postalCity": "OSLO",
-    "postalCode": 184
-  },
+    "postalCode": 18,
+  "country": "NO"  },
   {
     "storeNo": 596,
     "name": "EP VESTNES",
@@ -1141,7 +1225,8 @@
     "municipality": "VESTNES",
     "countryRegion": "Vestlandet",
     "postalCity": "VESTNES",
-    "postalCode": 6390
+    "postalCode": 6390,
+    "country": "NO"
   },
   {
     "storeNo": 597,
@@ -1154,7 +1239,8 @@
     "municipality": "HERØY (MØRE OG ROMSDAL)",
     "countryRegion": "Vestlandet",
     "postalCity": "FOSNAVÅG",
-    "postalCode": 6092
+    "postalCode": 6092,
+    "country": "NO"
   },
   {
     "storeNo": 600,
@@ -1167,7 +1253,8 @@
     "municipality": "MERÅKER",
     "countryRegion": "Trøndelag",
     "postalCity": "MERÅKER",
-    "postalCode": 7530
+    "postalCode": 7530,
+    "country": "NO"
   },
   {
     "storeNo": 602,
@@ -1180,7 +1267,8 @@
     "municipality": "ETNE",
     "countryRegion": "Vestlandet",
     "postalCity": "ETNE",
-    "postalCode": 5590
+    "postalCode": 5590,
+    "country": "NO"
   },
   {
     "storeNo": 487,
@@ -1193,7 +1281,8 @@
     "municipality": "LYNGDAL",
     "countryRegion": "Sørlandet",
     "postalCity": "LYNGDAL",
-    "postalCode": 4580
+    "postalCode": 4580,
+    "country": "NO"
   },
   {
     "storeNo": 290,
@@ -1206,7 +1295,8 @@
     "municipality": "TROMSØ",
     "countryRegion": "Nord-Norge",
     "postalCity": "TROMSØ",
-    "postalCode": 9015
+    "postalCode": 9015,
+    "country": "NO"
   },
   {
     "storeNo": 607,
@@ -1219,7 +1309,8 @@
     "municipality": "STRAND",
     "countryRegion": "Vestlandet",
     "postalCity": "TAU",
-    "postalCode": 4120
+    "postalCode": 4120,
+    "country": "NO"
   },
   {
     "storeNo": 810,
@@ -1232,8 +1323,8 @@
     "municipality": "OSLO",
     "countryRegion": "Østlandet",
     "postalCity": "OSLO",
-    "postalCode": 668
-  },
+    "postalCode": 66,
+  "country": "NO"  },
   {
     "storeNo": 611,
     "name": "EP LINDÅS",
@@ -1245,7 +1336,8 @@
     "municipality": "ALVER",
     "countryRegion": "Vestlandet",
     "postalCity": "LINDÅS",
-    "postalCode": 5955
+    "postalCode": 5955,
+    "country": "NO"
   },
   {
     "storeNo": 615,
@@ -1258,8 +1350,8 @@
     "municipality": "OSLO",
     "countryRegion": "Østlandet",
     "postalCity": "OSLO",
-    "postalCode": 585
-  },
+    "postalCode": 58,
+  "country": "NO"  },
   {
     "storeNo": 811,
     "name": "E-HANDEL HELTHJEM",
@@ -1271,8 +1363,8 @@
     "municipality": "OSLO",
     "countryRegion": "Østlandet",
     "postalCity": "OSLO",
-    "postalCode": 180
-  },
+    "postalCode": 18,
+  "country": "NO"  },
   {
     "storeNo": 444,
     "name": "EP KONGSBERG",
@@ -1284,7 +1376,8 @@
     "municipality": "KONGSBERG",
     "countryRegion": "Østlandet",
     "postalCity": "SKOLLENBORG",
-    "postalCode": 3619
+    "postalCode": 3619,
+    "country": "NO"
   },
   {
     "storeNo": 612,
@@ -1297,7 +1390,8 @@
     "municipality": "AUSTEVOLL",
     "countryRegion": "Vestlandet",
     "postalCity": "STOREBØ",
-    "postalCode": 5392
+    "postalCode": 5392,
+    "country": "NO"
   },
   {
     "storeNo": 618,
@@ -1310,7 +1404,8 @@
     "municipality": "BERGEN",
     "countryRegion": "Vestlandet",
     "postalCity": "BERGEN",
-    "postalCode": 5014
+    "postalCode": 5014,
+    "country": "NO"
   },
   {
     "storeNo": 619,
@@ -1323,7 +1418,8 @@
     "municipality": "STAVANGER",
     "countryRegion": "Vestlandet",
     "postalCity": "STAVANGER",
-    "postalCode": 4020
+    "postalCode": 4020,
+    "country": "NO"
   },
   {
     "storeNo": 616,
@@ -1336,7 +1432,8 @@
     "municipality": "SELBU",
     "countryRegion": "Trøndelag",
     "postalCity": "SELBU",
-    "postalCode": 7580
+    "postalCode": 7580,
+    "country": "NO"
   },
   {
     "storeNo": 621,
@@ -1349,7 +1446,8 @@
     "municipality": "FRØYA",
     "countryRegion": "Trøndelag",
     "postalCity": "HAMARVIK",
-    "postalCode": 7263
+    "postalCode": 7263,
+    "country": "NO"
   },
   {
     "storeNo": 626,
@@ -1362,7 +1460,8 @@
     "municipality": "BERGEN",
     "countryRegion": "Vestlandet",
     "postalCity": "RÅDAL",
-    "postalCode": 5239
+    "postalCode": 5239,
+    "country": "NO"
   },
   {
     "storeNo": 623,
@@ -1375,7 +1474,8 @@
     "municipality": "LØRENSKOG",
     "countryRegion": "Østlandet",
     "postalCity": "FJELLHAMAR",
-    "postalCode": 1463
+    "postalCode": 1463,
+    "country": "NO"
   },
   {
     "storeNo": 622,
@@ -1388,7 +1488,8 @@
     "municipality": "BARDU",
     "countryRegion": "Nord-Norge",
     "postalCity": "BARDU",
-    "postalCode": 9360
+    "postalCode": 9360,
+    "country": "NO"
   },
   {
     "storeNo": 624,
@@ -1401,8 +1502,8 @@
     "municipality": "OSLO",
     "countryRegion": "Østlandet",
     "postalCity": "OSLO",
-    "postalCode": 661
-  },
+    "postalCode": 66,
+  "country": "NO"  },
   {
     "storeNo": 625,
     "name": "EP NITTEDAL",
@@ -1414,7 +1515,8 @@
     "municipality": "NITTEDAL",
     "countryRegion": "Østlandet",
     "postalCity": "NITTEDAL",
-    "postalCode": 1482
+    "postalCode": 1482,
+    "country": "NO"
   },
   {
     "storeNo": 628,
@@ -1427,7 +1529,8 @@
     "municipality": "FROLAND",
     "countryRegion": "Sørlandet",
     "postalCity": "FROLAND",
-    "postalCode": 4820
+    "postalCode": 4820,
+    "country": "NO"
   },
   {
     "storeNo": 629,
@@ -1440,8 +1543,8 @@
     "municipality": "OSLO",
     "countryRegion": "Østlandet",
     "postalCity": "OSLO",
-    "postalCode": 159
-  },
+    "postalCode": 15,
+  "country": "NO"  },
   {
     "storeNo": 998,
     "name": "EP 998 52POS",
@@ -1453,7 +1556,8 @@
     "municipality": "",
     "countryRegion": "",
     "postalCity": "",
-    "postalCode": null
+    "postalCode": null,
+    "country": "NO"
   },
   {
     "storeNo": 630,
@@ -1466,7 +1570,8 @@
     "municipality": "DOVRE",
     "countryRegion": "Østlandet",
     "postalCity": "DOMBÅS",
-    "postalCode": 2660
+    "postalCode": 2660,
+    "country": "NO"
   },
   {
     "storeNo": 431,
@@ -1479,7 +1584,8 @@
     "municipality": "BERGEN",
     "countryRegion": "Vestlandet",
     "postalCity": "NESTTUN",
-    "postalCode": 5224
+    "postalCode": 5224,
+    "country": "NO"
   },
   {
     "storeNo": 631,
@@ -1492,7 +1598,8 @@
     "municipality": "HAMAR",
     "countryRegion": "Østlandet",
     "postalCity": "HAMAR",
-    "postalCode": 2321
+    "postalCode": 2321,
+    "country": "NO"
   },
   {
     "storeNo": 633,
@@ -1505,7 +1612,8 @@
     "municipality": "LØRENSKOG",
     "countryRegion": "Østlandet",
     "postalCity": "LØRENSKOG",
-    "postalCode": 1461
+    "postalCode": 1461,
+    "country": "NO"
   },
   {
     "storeNo": 634,
@@ -1518,7 +1626,8 @@
     "municipality": "DRAMMEN",
     "countryRegion": "Østlandet",
     "postalCity": "DRAMMEN",
-    "postalCode": 3012
+    "postalCode": 3012,
+    "country": "NO"
   },
   {
     "storeNo": 635,
@@ -1531,7 +1640,8 @@
     "municipality": "SALTDAL",
     "countryRegion": "Nord-Norge",
     "postalCity": "ROGNAN",
-    "postalCode": 8250
+    "postalCode": 8250,
+    "country": "NO"
   },
   {
     "storeNo": 641,
@@ -1544,7 +1654,8 @@
     "municipality": "DRAMMEN",
     "countryRegion": "Østlandet",
     "postalCity": "DRAMMEN",
-    "postalCode": 3048
+    "postalCode": 3048,
+    "country": "NO"
   },
   {
     "storeNo": 637,
@@ -1557,7 +1668,8 @@
     "municipality": "ASKER",
     "countryRegion": "Østlandet",
     "postalCity": "ASKER",
-    "postalCode": 1386
+    "postalCode": 1386,
+    "country": "NO"
   },
   {
     "storeNo": 639,
@@ -1570,7 +1682,8 @@
     "municipality": "KRISTIANSAND",
     "countryRegion": "Sørlandet",
     "postalCity": "KRISTIANSAND S",
-    "postalCode": 4616
+    "postalCode": 4616,
+    "country": "NO"
   },
   {
     "storeNo": 638,
@@ -1583,7 +1696,8 @@
     "municipality": "LARVIK",
     "countryRegion": "Østlandet",
     "postalCity": "LARVIK",
-    "postalCode": 3264
+    "postalCode": 3264,
+    "country": "NO"
   },
   {
     "storeNo": 644,
@@ -1596,7 +1710,8 @@
     "municipality": "BÆRUM",
     "countryRegion": "Østlandet",
     "postalCity": "BEKKESTUA",
-    "postalCode": 1357
+    "postalCode": 1357,
+    "country": "NO"
   },
   {
     "storeNo": 646,
@@ -1609,7 +1724,8 @@
     "municipality": "OSLO",
     "countryRegion": "Østlandet",
     "postalCity": "OSLO",
-    "postalCode": 1255
+    "postalCode": 1255,
+    "country": "NO"
   },
   {
     "storeNo": 76,
@@ -1622,7 +1738,8 @@
     "municipality": "KRAGERØ",
     "countryRegion": "Østlandet",
     "postalCity": "KRAGERØ",
-    "postalCode": 3772
+    "postalCode": 3772,
+    "country": "NO"
   },
   {
     "storeNo": 77,
@@ -1635,7 +1752,8 @@
     "municipality": "NOTODDEN",
     "countryRegion": "Østlandet",
     "postalCity": "NOTODDEN",
-    "postalCode": 3676
+    "postalCode": 3676,
+    "country": "NO"
   },
   {
     "storeNo": 79,
@@ -1648,7 +1766,8 @@
     "municipality": "ALSTAHAUG",
     "countryRegion": "Nord-Norge",
     "postalCity": "SANDNESSJØEN",
-    "postalCode": 8800
+    "postalCode": 8800,
+    "country": "NO"
   },
   {
     "storeNo": 416,
@@ -1661,7 +1780,8 @@
     "municipality": "TROMSØ",
     "countryRegion": "Nord-Norge",
     "postalCity": "TROMSØ",
-    "postalCode": 9010
+    "postalCode": 9010,
+    "country": "NO"
   },
   {
     "storeNo": 579,
@@ -1674,7 +1794,8 @@
     "municipality": "SUNNFJORD",
     "countryRegion": "Vestlandet",
     "postalCity": "FØRDE",
-    "postalCode": 6800
+    "postalCode": 6800,
+    "country": "NO"
   },
   {
     "storeNo": 605,
@@ -1687,7 +1808,8 @@
     "municipality": "SORTLAND",
     "countryRegion": "Nord-Norge",
     "postalCity": "SORTLAND",
-    "postalCode": 8400
+    "postalCode": 8400,
+    "country": "NO"
   },
   {
     "storeNo": 89,
@@ -1700,7 +1822,8 @@
     "municipality": "ALVER",
     "countryRegion": "Vestlandet",
     "postalCity": "ISDALSTØ",
-    "postalCode": 5914
+    "postalCode": 5914,
+    "country": "NO"
   },
   {
     "storeNo": 375,
@@ -1713,7 +1836,8 @@
     "municipality": "NAMSOS",
     "countryRegion": "Trøndelag",
     "postalCity": "NAMSOS",
-    "postalCode": 7800
+    "postalCode": 7800,
+    "country": "NO"
   },
   {
     "storeNo": 439,
@@ -1726,7 +1850,8 @@
     "municipality": "MIDT-TELEMARK",
     "countryRegion": "Østlandet",
     "postalCity": "BØ I TELEMARK",
-    "postalCode": 3802
+    "postalCode": 3802,
+    "country": "NO"
   },
   {
     "storeNo": 429,
@@ -1739,7 +1864,8 @@
     "municipality": "BERGEN",
     "countryRegion": "Vestlandet",
     "postalCity": "FYLLINGSDALEN",
-    "postalCode": 5147
+    "postalCode": 5147,
+    "country": "NO"
   },
   {
     "storeNo": 440,
@@ -1752,7 +1878,8 @@
     "municipality": "SANDEFJORD",
     "countryRegion": "Østlandet",
     "postalCity": "SANDEFJORD",
-    "postalCode": 3229
+    "postalCode": 3229,
+    "country": "NO"
   },
   {
     "storeNo": 441,
@@ -1765,7 +1892,8 @@
     "municipality": "LARVIK",
     "countryRegion": "Østlandet",
     "postalCity": "LARVIK",
-    "postalCode": 3255
+    "postalCode": 3255,
+    "country": "NO"
   },
   {
     "storeNo": 388,
@@ -1778,7 +1906,8 @@
     "municipality": "INDRE ØSTFOLD",
     "countryRegion": "Østlandet",
     "postalCity": "ASKIM",
-    "postalCode": 1830
+    "postalCode": 1830,
+    "country": "NO"
   },
   {
     "storeNo": 20,
@@ -1791,7 +1920,8 @@
     "municipality": "VESTVÅGØY",
     "countryRegion": "Nord-Norge",
     "postalCity": "LEKNES",
-    "postalCode": 8370
+    "postalCode": 8370,
+    "country": "NO"
   },
   {
     "storeNo": 117,
@@ -1804,7 +1934,8 @@
     "municipality": "ØVRE EIKER",
     "countryRegion": "Østlandet",
     "postalCity": "HOKKSUND",
-    "postalCode": 3300
+    "postalCode": 3300,
+    "country": "NO"
   },
   {
     "storeNo": 598,
@@ -1817,7 +1948,8 @@
     "municipality": "STORD",
     "countryRegion": "Vestlandet",
     "postalCity": "STORD",
-    "postalCode": 5416
+    "postalCode": 5416,
+    "country": "NO"
   },
   {
     "storeNo": 442,
@@ -1830,7 +1962,8 @@
     "municipality": "PORSGRUNN",
     "countryRegion": "Østlandet",
     "postalCity": "PORSGRUNN",
-    "postalCode": 3920
+    "postalCode": 3920,
+    "country": "NO"
   },
   {
     "storeNo": 498,
@@ -1843,7 +1976,8 @@
     "municipality": "ØRSTA",
     "countryRegion": "Vestlandet",
     "postalCity": "ØRSTA",
-    "postalCode": 6150
+    "postalCode": 6150,
+    "country": "NO"
   },
   {
     "storeNo": 339,
@@ -1856,7 +1990,8 @@
     "municipality": "MOLDE",
     "countryRegion": "Vestlandet",
     "postalCity": "EIDSVÅG I ROMSDAL",
-    "postalCode": 6460
+    "postalCode": 6460,
+    "country": "NO"
   },
   {
     "storeNo": 345,
@@ -1869,7 +2004,8 @@
     "municipality": "TIME",
     "countryRegion": "Vestlandet",
     "postalCity": "BRYNE",
-    "postalCode": 4340
+    "postalCode": 4340,
+    "country": "NO"
   },
   {
     "storeNo": 435,
@@ -1882,7 +2018,8 @@
     "municipality": "VEFSN",
     "countryRegion": "Nord-Norge",
     "postalCity": "MOSJØEN",
-    "postalCode": 8663
+    "postalCode": 8663,
+    "country": "NO"
   },
   {
     "storeNo": 135,
@@ -1895,7 +2032,8 @@
     "municipality": "ULLENSVANG",
     "countryRegion": "Vestlandet",
     "postalCity": "ODDA",
-    "postalCode": 5750
+    "postalCode": 5750,
+    "country": "NO"
   },
   {
     "storeNo": 449,
@@ -1908,7 +2046,8 @@
     "municipality": "ØYGARDEN",
     "countryRegion": "Vestlandet",
     "postalCity": "STRAUME",
-    "postalCode": 5353
+    "postalCode": 5353,
+    "country": "NO"
   },
   {
     "storeNo": 620,
@@ -1921,7 +2060,8 @@
     "municipality": "ØSTRE TOTEN",
     "countryRegion": "Østlandet",
     "postalCity": "LENA",
-    "postalCode": 2850
+    "postalCode": 2850,
+    "country": "NO"
   },
   {
     "storeNo": 395,
@@ -1934,7 +2074,8 @@
     "municipality": "HORTEN",
     "countryRegion": "Østlandet",
     "postalCity": "HORTEN",
-    "postalCode": 3187
+    "postalCode": 3187,
+    "country": "NO"
   },
   {
     "storeNo": 438,
@@ -1947,7 +2088,8 @@
     "municipality": "LIER",
     "countryRegion": "Østlandet",
     "postalCity": "LIERSKOGEN",
-    "postalCode": 3421
+    "postalCode": 3421,
+    "country": "NO"
   },
   {
     "storeNo": 412,
@@ -1960,7 +2102,8 @@
     "municipality": "SOGNDAL",
     "countryRegion": "Vestlandet",
     "postalCity": "KAUPANGER",
-    "postalCode": 6854
+    "postalCode": 6854,
+    "country": "NO"
   },
   {
     "storeNo": 589,
@@ -1973,7 +2116,8 @@
     "municipality": "HARSTAD",
     "countryRegion": "Nord-Norge",
     "postalCity": "HARSTAD",
-    "postalCode": 9406
+    "postalCode": 9406,
+    "country": "NO"
   },
   {
     "storeNo": 443,
@@ -1986,7 +2130,8 @@
     "municipality": "BAMBLE",
     "countryRegion": "Østlandet",
     "postalCity": "STATHELLE",
-    "postalCode": 3967
+    "postalCode": 3967,
+    "country": "NO"
   },
   {
     "storeNo": 430,
@@ -1999,7 +2144,8 @@
     "municipality": "SENJA",
     "countryRegion": "Nord-Norge",
     "postalCity": "FINNSNES",
-    "postalCode": 9300
+    "postalCode": 9300,
+    "country": "NO"
   },
   {
     "storeNo": 397,
@@ -2012,7 +2158,8 @@
     "municipality": "OPPDAL",
     "countryRegion": "Trøndelag",
     "postalCity": "OPPDAL",
-    "postalCode": 7340
+    "postalCode": 7340,
+    "country": "NO"
   },
   {
     "storeNo": 499,
@@ -2025,7 +2172,8 @@
     "municipality": "ULSTEIN",
     "countryRegion": "Vestlandet",
     "postalCity": "ULSTEINVIK",
-    "postalCode": 6065
+    "postalCode": 6065,
+    "country": "NO"
   },
   {
     "storeNo": 613,
@@ -2038,7 +2186,8 @@
     "municipality": "KRISTIANSAND",
     "countryRegion": "Sørlandet",
     "postalCity": "KRISTIANSAND S",
-    "postalCode": 4621
+    "postalCode": 4621,
+    "country": "NO"
   },
   {
     "storeNo": 642,
@@ -2051,7 +2200,8 @@
     "municipality": "STRAND",
     "countryRegion": "Vestlandet",
     "postalCity": "JØRPELAND",
-    "postalCode": 4100
+    "postalCode": 4100,
+    "country": "NO"
   },
   {
     "storeNo": 470,
@@ -2064,7 +2214,8 @@
     "municipality": "BØMLO",
     "countryRegion": "Vestlandet",
     "postalCity": "BREMNES",
-    "postalCode": 5430
+    "postalCode": 5430,
+    "country": "NO"
   },
   {
     "storeNo": 209,
@@ -2077,7 +2228,8 @@
     "municipality": "FREDRIKSTAD",
     "countryRegion": "Østlandet",
     "postalCity": "ROLVSØY",
-    "postalCode": 1661
+    "postalCode": 1661,
+    "country": "NO"
   },
   {
     "storeNo": 636,
@@ -2090,7 +2242,8 @@
     "municipality": "SEL",
     "countryRegion": "Østlandet",
     "postalCity": "OTTA",
-    "postalCode": 2670
+    "postalCode": 2670,
+    "country": "NO"
   },
   {
     "storeNo": 384,
@@ -2103,7 +2256,8 @@
     "municipality": "HÅ",
     "countryRegion": "Vestlandet",
     "postalCity": "NÆRBØ",
-    "postalCode": 4365
+    "postalCode": 4365,
+    "country": "NO"
   },
   {
     "storeNo": 419,
@@ -2116,7 +2270,8 @@
     "municipality": "VÅGAN",
     "countryRegion": "Nord-Norge",
     "postalCity": "SVOLVÆR",
-    "postalCode": 8300
+    "postalCode": 8300,
+    "country": "NO"
   },
   {
     "storeNo": 413,
@@ -2129,7 +2284,8 @@
     "municipality": "INDRE ØSTFOLD",
     "countryRegion": "Østlandet",
     "postalCity": "MYSEN",
-    "postalCode": 1850
+    "postalCode": 1850,
+    "country": "NO"
   },
   {
     "storeNo": 610,
@@ -2142,7 +2298,8 @@
     "municipality": "NORDREISA",
     "countryRegion": "Nord-Norge",
     "postalCity": "SØRKJOSEN",
-    "postalCode": 9152
+    "postalCode": 9152,
+    "country": "NO"
   },
   {
     "storeNo": 216,
@@ -2155,7 +2312,8 @@
     "municipality": "RANDABERG",
     "countryRegion": "Vestlandet",
     "postalCity": "RANDABERG",
-    "postalCode": 4070
+    "postalCode": 4070,
+    "country": "NO"
   },
   {
     "storeNo": 436,
@@ -2168,7 +2326,8 @@
     "municipality": "LILLESAND",
     "countryRegion": "Sørlandet",
     "postalCity": "LILLESAND",
-    "postalCode": 4790
+    "postalCode": 4790,
+    "country": "NO"
   },
   {
     "storeNo": 595,
@@ -2181,7 +2340,8 @@
     "municipality": "SKIEN",
     "countryRegion": "Østlandet",
     "postalCity": "SKIEN",
-    "postalCode": 3730
+    "postalCode": 3730,
+    "country": "NO"
   },
   {
     "storeNo": 221,
@@ -2194,7 +2354,8 @@
     "municipality": "STAVANGER",
     "countryRegion": "Vestlandet",
     "postalCity": "STAVANGER",
-    "postalCode": 4014
+    "postalCode": 4014,
+    "country": "NO"
   },
   {
     "storeNo": 223,
@@ -2207,7 +2368,8 @@
     "municipality": "SANDNES",
     "countryRegion": "Vestlandet",
     "postalCity": "SANDNES",
-    "postalCode": 4306
+    "postalCode": 4306,
+    "country": "NO"
   },
   {
     "storeNo": 224,
@@ -2220,7 +2382,8 @@
     "municipality": "LIER",
     "countryRegion": "Østlandet",
     "postalCity": "LIERSTRANDA",
-    "postalCode": 3414
+    "postalCode": 3414,
+    "country": "NO"
   },
   {
     "storeNo": 225,
@@ -2233,7 +2396,8 @@
     "municipality": "DRAMMEN",
     "countryRegion": "Østlandet",
     "postalCity": "DRAMMEN",
-    "postalCode": 3027
+    "postalCode": 3027,
+    "country": "NO"
   },
   {
     "storeNo": 226,
@@ -2246,7 +2410,8 @@
     "municipality": "MODUM",
     "countryRegion": "Østlandet",
     "postalCity": "VIKERSUND",
-    "postalCode": 3370
+    "postalCode": 3370,
+    "country": "NO"
   },
   {
     "storeNo": 227,
@@ -2259,7 +2424,8 @@
     "municipality": "VESTBY",
     "countryRegion": "Østlandet",
     "postalCity": "VESTBY",
-    "postalCode": 1540
+    "postalCode": 1540,
+    "country": "NO"
   },
   {
     "storeNo": 228,
@@ -2272,7 +2438,8 @@
     "municipality": "LILLEHAMMER",
     "countryRegion": "Østlandet",
     "postalCity": "LILLEHAMMER",
-    "postalCode": 2609
+    "postalCode": 2609,
+    "country": "NO"
   },
   {
     "storeNo": 229,
@@ -2285,7 +2452,8 @@
     "municipality": "RINGSAKER",
     "countryRegion": "Østlandet",
     "postalCity": "BRUMUNDDAL",
-    "postalCode": 2380
+    "postalCode": 2380,
+    "country": "NO"
   },
   {
     "storeNo": 645,
@@ -2298,7 +2466,8 @@
     "municipality": "LINDESNES",
     "countryRegion": "Sørlandet",
     "postalCity": "MANDAL",
-    "postalCode": 4515
+    "postalCode": 4515,
+    "country": "NO"
   },
   {
     "storeNo": 230,
@@ -2311,7 +2480,8 @@
     "municipality": "ÅSNES",
     "countryRegion": "Østlandet",
     "postalCity": "FLISA",
-    "postalCode": 2270
+    "postalCode": 2270,
+    "country": "NO"
   },
   {
     "storeNo": 231,
@@ -2324,7 +2494,8 @@
     "municipality": "NES",
     "countryRegion": "Østlandet",
     "postalCity": "ÅRNES",
-    "postalCode": 2151
+    "postalCode": 2151,
+    "country": "NO"
   },
   {
     "storeNo": 233,
@@ -2337,7 +2508,8 @@
     "municipality": "HAUGESUND",
     "countryRegion": "Vestlandet",
     "postalCity": "HAUGESUND",
-    "postalCode": 5536
+    "postalCode": 5536,
+    "country": "NO"
   },
   {
     "storeNo": 236,
@@ -2350,8 +2522,8 @@
     "municipality": "OSLO",
     "countryRegion": "Østlandet",
     "postalCity": "OSLO",
-    "postalCode": 598
-  },
+    "postalCode": 59,
+  "country": "NO"  },
   {
     "storeNo": 237,
     "name": "EP PRINSDAL",
@@ -2363,7 +2535,8 @@
     "municipality": "NORDRE FOLLO",
     "countryRegion": "Østlandet",
     "postalCity": "KOLBOTN",
-    "postalCode": 1410
+    "postalCode": 1410,
+    "country": "NO"
   },
   {
     "storeNo": 238,
@@ -2376,8 +2549,8 @@
     "municipality": "OSLO",
     "countryRegion": "Østlandet",
     "postalCity": "OSLO",
-    "postalCode": 666
-  },
+    "postalCode": 66,
+  "country": "NO"  },
   {
     "storeNo": 239,
     "name": "EP HALDEN",
@@ -2389,7 +2562,8 @@
     "municipality": "HALDEN",
     "countryRegion": "Østlandet",
     "postalCity": "HALDEN",
-    "postalCode": 1771
+    "postalCode": 1771,
+    "country": "NO"
   },
   {
     "storeNo": 242,
@@ -2402,7 +2576,8 @@
     "municipality": "RINGSAKER",
     "countryRegion": "Østlandet",
     "postalCity": "MOELV",
-    "postalCode": 2390
+    "postalCode": 2390,
+    "country": "NO"
   },
   {
     "storeNo": 434,
@@ -2415,7 +2590,8 @@
     "municipality": "RANA",
     "countryRegion": "Nord-Norge",
     "postalCity": "MO I RANA",
-    "postalCode": 8624
+    "postalCode": 8624,
+    "country": "NO"
   },
   {
     "storeNo": 243,
@@ -2428,7 +2604,8 @@
     "municipality": "KONGSVINGER",
     "countryRegion": "Østlandet",
     "postalCity": "KONGSVINGER",
-    "postalCode": 2212
+    "postalCode": 2212,
+    "country": "NO"
   },
   {
     "storeNo": 244,
@@ -2441,7 +2618,8 @@
     "municipality": "RINGERIKE",
     "countryRegion": "Østlandet",
     "postalCity": "HØNEFOSS",
-    "postalCode": 3511
+    "postalCode": 3511,
+    "country": "NO"
   },
   {
     "storeNo": 245,
@@ -2454,7 +2632,8 @@
     "municipality": "RAKKESTAD",
     "countryRegion": "Østlandet",
     "postalCity": "RAKKESTAD",
-    "postalCode": 1890
+    "postalCode": 1890,
+    "country": "NO"
   },
   {
     "storeNo": 246,
@@ -2467,7 +2646,8 @@
     "municipality": "EIDSVOLL",
     "countryRegion": "Østlandet",
     "postalCity": "EIDSVOLL",
-    "postalCode": 2080
+    "postalCode": 2080,
+    "country": "NO"
   },
   {
     "storeNo": 247,
@@ -2480,7 +2660,8 @@
     "municipality": "STANGE",
     "countryRegion": "Østlandet",
     "postalCity": "STANGE",
-    "postalCode": 2335
+    "postalCode": 2335,
+    "country": "NO"
   },
   {
     "storeNo": 248,
@@ -2493,7 +2674,8 @@
     "municipality": "ASKER",
     "countryRegion": "Østlandet",
     "postalCity": "SLEMMESTAD",
-    "postalCode": 3470
+    "postalCode": 3470,
+    "country": "NO"
   },
   {
     "storeNo": 249,
@@ -2506,7 +2688,8 @@
     "municipality": "ELVERUM",
     "countryRegion": "Østlandet",
     "postalCity": "ELVERUM",
-    "postalCode": 2413
+    "postalCode": 2413,
+    "country": "NO"
   },
   {
     "storeNo": 250,
@@ -2519,7 +2702,8 @@
     "municipality": "SARPSBORG",
     "countryRegion": "Østlandet",
     "postalCity": "SARPSBORG",
-    "postalCode": 1711
+    "postalCode": 1711,
+    "country": "NO"
   },
   {
     "storeNo": 252,
@@ -2532,7 +2716,8 @@
     "municipality": "ULLENSAKER",
     "countryRegion": "Østlandet",
     "postalCity": "KLØFTA",
-    "postalCode": 2040
+    "postalCode": 2040,
+    "country": "NO"
   },
   {
     "storeNo": 253,
@@ -2545,7 +2730,8 @@
     "municipality": "LILLESTRØM",
     "countryRegion": "Østlandet",
     "postalCity": "SØRUMSAND",
-    "postalCode": 1920
+    "postalCode": 1920,
+    "country": "NO"
   },
   {
     "storeNo": 594,
@@ -2558,7 +2744,8 @@
     "municipality": "SKIEN",
     "countryRegion": "Østlandet",
     "postalCity": "SKIEN",
-    "postalCode": 3723
+    "postalCode": 3723,
+    "country": "NO"
   },
   {
     "storeNo": 254,
@@ -2571,7 +2758,8 @@
     "municipality": "OSLO",
     "countryRegion": "Østlandet",
     "postalCity": "OSLO",
-    "postalCode": 1153
+    "postalCode": 1153,
+    "country": "NO"
   },
   {
     "storeNo": 255,
@@ -2584,7 +2772,8 @@
     "municipality": "OSLO",
     "countryRegion": "Østlandet",
     "postalCity": "OSLO",
-    "postalCode": 1068
+    "postalCode": 1068,
+    "country": "NO"
   },
   {
     "storeNo": 334,
@@ -2597,7 +2786,8 @@
     "municipality": "FÆRDER",
     "countryRegion": "Østlandet",
     "postalCity": "NØTTERØY",
-    "postalCode": 3128
+    "postalCode": 3128,
+    "country": "NO"
   },
   {
     "storeNo": 396,
@@ -2610,7 +2800,8 @@
     "municipality": "HUSTADVIKA",
     "countryRegion": "Vestlandet",
     "postalCity": "ELNESVÅGEN",
-    "postalCode": 6440
+    "postalCode": 6440,
+    "country": "NO"
   },
   {
     "storeNo": 262,
@@ -2623,8 +2814,8 @@
     "municipality": "OSLO",
     "countryRegion": "Østlandet",
     "postalCity": "OSLO",
-    "postalCode": 977
-  },
+    "postalCode": 97,
+  "country": "NO"  },
   {
     "storeNo": 415,
     "name": "EP GOL",
@@ -2636,7 +2827,8 @@
     "municipality": "GOL",
     "countryRegion": "Østlandet",
     "postalCity": "GOL",
-    "postalCode": 3550
+    "postalCode": 3550,
+    "country": "NO"
   },
   {
     "storeNo": 264,
@@ -2649,7 +2841,8 @@
     "municipality": "EIDSVOLL",
     "countryRegion": "Østlandet",
     "postalCity": "RÅHOLT",
-    "postalCode": 2070
+    "postalCode": 2070,
+    "country": "NO"
   },
   {
     "storeNo": 267,
@@ -2662,7 +2855,8 @@
     "municipality": "SOLA",
     "countryRegion": "Vestlandet",
     "postalCity": "SOLA",
-    "postalCode": 4050
+    "postalCode": 4050,
+    "country": "NO"
   },
   {
     "storeNo": 627,
@@ -2675,7 +2869,8 @@
     "municipality": "NORD-AURDAL",
     "countryRegion": "Østlandet",
     "postalCity": "LEIRA I VALDRES",
-    "postalCode": 2920
+    "postalCode": 2920,
+    "country": "NO"
   },
   {
     "storeNo": 587,
@@ -2688,7 +2883,8 @@
     "municipality": "VESTRE TOTEN",
     "countryRegion": "Østlandet",
     "postalCity": "RAUFOSS",
-    "postalCode": 2830
+    "postalCode": 2830,
+    "country": "NO"
   },
   {
     "storeNo": 271,
@@ -2701,7 +2897,8 @@
     "municipality": "BERGEN",
     "countryRegion": "Vestlandet",
     "postalCity": "LODDEFJORD",
-    "postalCode": 5171
+    "postalCode": 5171,
+    "country": "NO"
   },
   {
     "storeNo": 272,
@@ -2714,7 +2911,8 @@
     "municipality": "ÅS",
     "countryRegion": "Østlandet",
     "postalCity": "ÅS",
-    "postalCode": 1430
+    "postalCode": 1430,
+    "country": "NO"
   },
   {
     "storeNo": 273,
@@ -2727,7 +2925,8 @@
     "municipality": "TRYSIL",
     "countryRegion": "Østlandet",
     "postalCity": "TRYSIL",
-    "postalCode": 2420
+    "postalCode": 2420,
+    "country": "NO"
   },
   {
     "storeNo": 279,
@@ -2740,7 +2939,8 @@
     "municipality": "SARPSBORG",
     "countryRegion": "Østlandet",
     "postalCity": "BORGENHAUGEN",
-    "postalCode": 1738
+    "postalCode": 1738,
+    "country": "NO"
   },
   {
     "storeNo": 383,
@@ -2753,7 +2953,8 @@
     "municipality": "LILLESTRØM",
     "countryRegion": "Østlandet",
     "postalCity": "LILLESTRØM",
-    "postalCode": 2004
+    "postalCode": 2004,
+    "country": "NO"
   },
   {
     "storeNo": 393,
@@ -2766,7 +2967,8 @@
     "municipality": "TØNSBERG",
     "countryRegion": "Østlandet",
     "postalCity": "SEM",
-    "postalCode": 3170
+    "postalCode": 3170,
+    "country": "NO"
   },
   {
     "storeNo": 801,
@@ -2779,7 +2981,8 @@
     "municipality": "",
     "countryRegion": "",
     "postalCity": "",
-    "postalCode": null
+    "postalCode": null,
+    "country": "NO"
   },
   {
     "storeNo": 802,
@@ -2792,7 +2995,8 @@
     "municipality": "ØYGARDEN",
     "countryRegion": "Vestlandet",
     "postalCity": "TJELDSTØ",
-    "postalCode": 5333
+    "postalCode": 5333,
+    "country": "NO"
   },
   {
     "storeNo": 803,
@@ -2805,7 +3009,8 @@
     "municipality": "",
     "countryRegion": "",
     "postalCity": "",
-    "postalCode": null
+    "postalCode": null,
+    "country": "NO"
   },
   {
     "storeNo": 804,
@@ -2818,7 +3023,8 @@
     "municipality": "",
     "countryRegion": "",
     "postalCity": "",
-    "postalCode": null
+    "postalCode": null,
+    "country": "NO"
   },
   {
     "storeNo": 805,
@@ -2831,7 +3037,8 @@
     "municipality": "",
     "countryRegion": "",
     "postalCity": "",
-    "postalCode": null
+    "postalCode": null,
+    "country": "NO"
   },
   {
     "storeNo": 806,
@@ -2844,7 +3051,8 @@
     "municipality": "ÅLESUND",
     "countryRegion": "Vestlandet",
     "postalCity": "ÅLESUND",
-    "postalCode": 6022
+    "postalCode": 6022,
+    "country": "NO"
   },
   {
     "storeNo": 807,
@@ -2857,7 +3065,8 @@
     "municipality": "BERGEN",
     "countryRegion": "Vestlandet",
     "postalCity": "BERGEN",
-    "postalCode": 5827
+    "postalCode": 5827,
+    "country": "NO"
   },
   {
     "storeNo": 808,
@@ -2870,7 +3079,8 @@
     "municipality": "",
     "countryRegion": "",
     "postalCity": "",
-    "postalCode": null
+    "postalCode": null,
+    "country": "NO"
   },
   {
     "storeNo": 12,
@@ -2883,7 +3093,8 @@
     "municipality": "EIGERSUND",
     "countryRegion": "Vestlandet",
     "postalCity": "EGERSUND",
-    "postalCode": 4373
+    "postalCode": 4373,
+    "country": "NO"
   },
   {
     "storeNo": 446,
@@ -2896,7 +3107,8 @@
     "municipality": "FREDRIKSTAD",
     "countryRegion": "Østlandet",
     "postalCity": "SELLEBAKK",
-    "postalCode": 1654
+    "postalCode": 1654,
+    "country": "NO"
   },
   {
     "storeNo": 576,
@@ -2909,7 +3121,8 @@
     "municipality": "SANDNES",
     "countryRegion": "Vestlandet",
     "postalCity": "SANDNES",
-    "postalCode": 4324
+    "postalCode": 4324,
+    "country": "NO"
   },
   {
     "storeNo": 643,
@@ -2922,7 +3135,8 @@
     "municipality": "RAUMA",
     "countryRegion": "Vestlandet",
     "postalCity": "ÅNDALSNES",
-    "postalCode": 6300
+    "postalCode": 6300,
+    "country": "NO"
   },
   {
     "storeNo": 274,
@@ -2935,7 +3149,8 @@
     "municipality": "VADSØ",
     "countryRegion": "Nord-Norge",
     "postalCity": "VADSØ",
-    "postalCode": 9800
+    "postalCode": 9800,
+    "country": "NO"
   },
   {
     "storeNo": 286,
@@ -2948,7 +3163,8 @@
     "municipality": "BERGEN",
     "countryRegion": "Vestlandet",
     "postalCity": "NYBORG",
-    "postalCode": 5132
+    "postalCode": 5132,
+    "country": "NO"
   },
   {
     "storeNo": 374,
@@ -2961,7 +3177,8 @@
     "municipality": "BODØ",
     "countryRegion": "Nord-Norge",
     "postalCity": "BODØ",
-    "postalCode": 8022
+    "postalCode": 8022,
+    "country": "NO"
   },
   {
     "storeNo": 467,
@@ -2974,7 +3191,8 @@
     "municipality": "KVINESDAL",
     "countryRegion": "Sørlandet",
     "postalCity": "KVINESDAL",
-    "postalCode": 4480
+    "postalCode": 4480,
+    "country": "NO"
   },
   {
     "storeNo": 426,
@@ -2987,7 +3205,8 @@
     "municipality": "NÆRØYSUND",
     "countryRegion": "Trøndelag",
     "postalCity": "KOLVEREID",
-    "postalCode": 7970
+    "postalCode": 7970,
+    "country": "NO"
   },
   {
     "storeNo": 301,
@@ -3000,7 +3219,8 @@
     "municipality": "VENNESLA",
     "countryRegion": "Sørlandet",
     "postalCity": "VENNESLA",
-    "postalCode": 4700
+    "postalCode": 4700,
+    "country": "NO"
   },
   {
     "storeNo": 293,
@@ -3013,7 +3233,8 @@
     "municipality": "HAMAR",
     "countryRegion": "Østlandet",
     "postalCity": "HAMAR",
-    "postalCode": 2316
+    "postalCode": 2316,
+    "country": "NO"
   },
   {
     "storeNo": 471,
@@ -3026,7 +3247,8 @@
     "municipality": "LEVANGER",
     "countryRegion": "Trøndelag",
     "postalCity": "LEVANGER",
-    "postalCode": 7606
+    "postalCode": 7606,
+    "country": "NO"
   },
   {
     "storeNo": 295,
@@ -3039,7 +3261,8 @@
     "municipality": "MOSS",
     "countryRegion": "Østlandet",
     "postalCity": "MOSS",
-    "postalCode": 1521
+    "postalCode": 1521,
+    "country": "NO"
   },
   {
     "storeNo": 296,
@@ -3052,7 +3275,8 @@
     "municipality": "SØR-ODAL",
     "countryRegion": "Østlandet",
     "postalCity": "SKARNES",
-    "postalCode": 2100
+    "postalCode": 2100,
+    "country": "NO"
   },
   {
     "storeNo": 291,
@@ -3065,7 +3289,8 @@
     "municipality": "TVEDESTRAND",
     "countryRegion": "Sørlandet",
     "postalCity": "TVEDESTRAND",
-    "postalCode": 4900
+    "postalCode": 4900,
+    "country": "NO"
   },
   {
     "storeNo": 283,
@@ -3078,7 +3303,8 @@
     "municipality": "KRISTIANSAND",
     "countryRegion": "Sørlandet",
     "postalCity": "KRISTIANSAND S",
-    "postalCode": 4636
+    "postalCode": 4636,
+    "country": "NO"
   },
   {
     "storeNo": 414,
@@ -3091,7 +3317,8 @@
     "municipality": "RINGEBU",
     "countryRegion": "Østlandet",
     "postalCity": "RINGEBU",
-    "postalCode": 2630
+    "postalCode": 2630,
+    "country": "NO"
   },
   {
     "storeNo": 280,
@@ -3104,7 +3331,8 @@
     "municipality": "ÅMOT",
     "countryRegion": "Østlandet",
     "postalCity": "RENA",
-    "postalCode": 2450
+    "postalCode": 2450,
+    "country": "NO"
   },
   {
     "storeNo": 608,
@@ -3117,7 +3345,8 @@
     "municipality": "FLEKKEFJORD",
     "countryRegion": "Sørlandet",
     "postalCity": "FLEKKEFJORD",
-    "postalCode": 4400
+    "postalCode": 4400,
+    "country": "NO"
   },
   {
     "storeNo": 474,
@@ -3130,7 +3359,8 @@
     "municipality": "KRISTIANSAND",
     "countryRegion": "Sørlandet",
     "postalCity": "KRISTIANSAND S",
-    "postalCode": 4632
+    "postalCode": 4632,
+    "country": "NO"
   },
   {
     "storeNo": 297,
@@ -3143,7 +3373,8 @@
     "municipality": "HALDEN",
     "countryRegion": "Østlandet",
     "postalCity": "BERG I ØSTFOLD",
-    "postalCode": 1789
+    "postalCode": 1789,
+    "country": "NO"
   },
   {
     "storeNo": 632,
@@ -3156,7 +3387,8 @@
     "municipality": "HOLMESTRAND",
     "countryRegion": "Østlandet",
     "postalCity": "HOLMESTRAND",
-    "postalCode": 3080
+    "postalCode": 3080,
+    "country": "NO"
   },
   {
     "storeNo": 427,
@@ -3169,7 +3401,8 @@
     "municipality": "HOLMESTRAND",
     "countryRegion": "Østlandet",
     "postalCity": "SANDE I VESTFOLD",
-    "postalCode": 3070
+    "postalCode": 3070,
+    "country": "NO"
   },
   {
     "storeNo": 304,
@@ -3182,7 +3415,8 @@
     "municipality": "FARSUND",
     "countryRegion": "Sørlandet",
     "postalCity": "FARSUND",
-    "postalCode": 4550
+    "postalCode": 4550,
+    "country": "NO"
   },
   {
     "storeNo": 305,
@@ -3195,7 +3429,8 @@
     "municipality": "PORSANGER PORSÁNGU PORSANKI",
     "countryRegion": "Nord-Norge",
     "postalCity": "LAKSELV",
-    "postalCode": 9700
+    "postalCode": 9700,
+    "country": "NO"
   },
   {
     "storeNo": 307,
@@ -3208,7 +3443,8 @@
     "municipality": "TRONDHEIM",
     "countryRegion": "Trøndelag",
     "postalCity": "TILLER",
-    "postalCode": 7075
+    "postalCode": 7075,
+    "country": "NO"
   },
   {
     "storeNo": 306,
@@ -3221,7 +3457,8 @@
     "municipality": "KINN",
     "countryRegion": "Vestlandet",
     "postalCity": "DEKNEPOLLEN",
-    "postalCode": 6718
+    "postalCode": 6718,
+    "country": "NO"
   },
   {
     "storeNo": 299,
@@ -3234,7 +3471,8 @@
     "municipality": "AURSKOG-HØLAND",
     "countryRegion": "Østlandet",
     "postalCity": "BJØRKELANGEN",
-    "postalCode": 1940
+    "postalCode": 1940,
+    "country": "NO"
   },
   {
     "storeNo": 394,
@@ -3247,7 +3485,8 @@
     "municipality": "GJØVIK",
     "countryRegion": "Østlandet",
     "postalCity": "GJØVIK",
-    "postalCode": 2818
+    "postalCode": 2818,
+    "country": "NO"
   },
   {
     "storeNo": 311,
@@ -3260,7 +3499,8 @@
     "municipality": "GJERSTAD",
     "countryRegion": "Sørlandet",
     "postalCity": "SUNDEBRU",
-    "postalCode": 4993
+    "postalCode": 4993,
+    "country": "NO"
   },
   {
     "storeNo": 316,
@@ -3273,7 +3513,8 @@
     "municipality": "SØR-VARANGER",
     "countryRegion": "Nord-Norge",
     "postalCity": "KIRKENES",
-    "postalCode": 9900
+    "postalCode": 9900,
+    "country": "NO"
   },
   {
     "storeNo": 308,
@@ -3286,7 +3527,8 @@
     "municipality": "KRISTIANSUND",
     "countryRegion": "Vestlandet",
     "postalCity": "KRISTIANSUND N",
-    "postalCode": 6517
+    "postalCode": 6517,
+    "country": "NO"
   },
   {
     "storeNo": 309,
@@ -3299,7 +3541,8 @@
     "municipality": "STEINKJER",
     "countryRegion": "Trøndelag",
     "postalCity": "STEINKJER",
-    "postalCode": 7714
+    "postalCode": 7714,
+    "country": "NO"
   },
   {
     "storeNo": 310,
@@ -3312,7 +3555,8 @@
     "municipality": "VERDAL",
     "countryRegion": "Trøndelag",
     "postalCity": "VERDAL",
-    "postalCode": 7650
+    "postalCode": 7650,
+    "country": "NO"
   },
   {
     "storeNo": 315,
@@ -3325,7 +3569,8 @@
     "municipality": "KVAM",
     "countryRegion": "Vestlandet",
     "postalCity": "NORHEIMSUND",
-    "postalCode": 5600
+    "postalCode": 5600,
+    "country": "NO"
   },
   {
     "storeNo": 387,
@@ -3338,7 +3583,8 @@
     "municipality": "LILLESTRØM",
     "countryRegion": "Østlandet",
     "postalCity": "SKEDSMOKORSET",
-    "postalCode": 2020
+    "postalCode": 2020,
+    "country": "NO"
   },
   {
     "storeNo": 317,
@@ -3351,7 +3597,8 @@
     "municipality": "ASKER",
     "countryRegion": "Østlandet",
     "postalCity": "BILLINGSTAD",
-    "postalCode": 1396
+    "postalCode": 1396,
+    "country": "NO"
   },
   {
     "storeNo": 588,
@@ -3364,7 +3611,8 @@
     "municipality": "NARVIK",
     "countryRegion": "Nord-Norge",
     "postalCity": "NARVIK",
-    "postalCode": 8516
+    "postalCode": 8516,
+    "country": "NO"
   },
   {
     "storeNo": 47,
@@ -3377,7 +3625,8 @@
     "municipality": "KVINNHERAD",
     "countryRegion": "Vestlandet",
     "postalCity": "HUSNES",
-    "postalCode": 5460
+    "postalCode": 5460,
+    "country": "NO"
   },
   {
     "storeNo": 590,
@@ -3390,7 +3639,8 @@
     "municipality": "NORDRE LAND",
     "countryRegion": "Østlandet",
     "postalCity": "DOKKA",
-    "postalCode": 2870
+    "postalCode": 2870,
+    "country": "NO"
   },
   {
     "storeNo": 320,
@@ -3403,7 +3653,8 @@
     "municipality": "TRONDHEIM",
     "countryRegion": "Trøndelag",
     "postalCity": "TRONDHEIM",
-    "postalCode": 7041
+    "postalCode": 7041,
+    "country": "NO"
   },
   {
     "storeNo": 312,
@@ -3416,7 +3667,8 @@
     "municipality": "VINDAFJORD",
     "countryRegion": "Vestlandet",
     "postalCity": "ØLENSVÅG",
-    "postalCode": 5582
+    "postalCode": 5582,
+    "country": "NO"
   },
   {
     "storeNo": 574,
@@ -3429,7 +3681,8 @@
     "municipality": "GJESDAL",
     "countryRegion": "Vestlandet",
     "postalCity": "ÅLGÅRD",
-    "postalCode": 4330
+    "postalCode": 4330,
+    "country": "NO"
   },
   {
     "storeNo": 417,
@@ -3442,7 +3695,8 @@
     "municipality": "VOLDA",
     "countryRegion": "Vestlandet",
     "postalCity": "VOLDA",
-    "postalCode": 6100
+    "postalCode": 6100,
+    "country": "NO"
   },
   {
     "storeNo": 466,
@@ -3455,7 +3709,8 @@
     "municipality": "KRISTIANSAND",
     "countryRegion": "Sørlandet",
     "postalCity": "BRENNÅSEN",
-    "postalCode": 4647
+    "postalCode": 4647,
+    "country": "NO"
   },
   {
     "storeNo": 451,
@@ -3468,8 +3723,8 @@
     "municipality": "",
     "countryRegion": "",
     "postalCity": "",
-    "postalCode": 101
-  },
+    "postalCode": 10,
+  "country": "NO"  },
   {
     "storeNo": 452,
     "name": "LETTKAUP EHF. SELFOSS",
@@ -3481,8 +3736,8 @@
     "municipality": "",
     "countryRegion": "",
     "postalCity": "",
-    "postalCode": 800
-  },
+    "postalCode": 80,
+  "country": "NO"  },
   {
     "storeNo": 453,
     "name": "LETTKAUP EHF. DALEVEGUR",
@@ -3494,8 +3749,8 @@
     "municipality": "",
     "countryRegion": "",
     "postalCity": "",
-    "postalCode": 200
-  },
+    "postalCode": 20,
+  "country": "NO"  },
   {
     "storeNo": 455,
     "name": "LETTKAUP EHF. AKUREYRI",
@@ -3507,8 +3762,8 @@
     "municipality": "",
     "countryRegion": "",
     "postalCity": "",
-    "postalCode": 600
-  },
+    "postalCode": 60,
+  "country": "NO"  },
   {
     "storeNo": 454,
     "name": "LETTKAUP EHF. HAFNAFJORDUR",
@@ -3520,8 +3775,8 @@
     "municipality": "",
     "countryRegion": "",
     "postalCity": "",
-    "postalCode": 220
-  },
+    "postalCode": 22,
+  "country": "NO"  },
   {
     "storeNo": 456,
     "name": "LETTKAUP EHF. STEKKJABREKKUR",
@@ -3533,8 +3788,8 @@
     "municipality": "",
     "countryRegion": "",
     "postalCity": "",
-    "postalCode": 113
-  },
+    "postalCode": 11,
+  "country": "NO"  },
   {
     "storeNo": 1,
     "name": "NY1",
@@ -3546,7 +3801,8 @@
     "municipality": "",
     "countryRegion": "",
     "postalCity": "",
-    "postalCode": null
+    "postalCode": null,
+    "country": "NO"
   },
   {
     "storeNo": 2,
@@ -3559,7 +3815,8 @@
     "municipality": "",
     "countryRegion": "",
     "postalCity": "",
-    "postalCode": null
+    "postalCode": null,
+    "country": "NO"
   },
   {
     "storeNo": 3,
@@ -3572,7 +3829,8 @@
     "municipality": "",
     "countryRegion": "",
     "postalCity": "",
-    "postalCode": null
+    "postalCode": null,
+    "country": "NO"
   },
   {
     "storeNo": 4,
@@ -3585,7 +3843,8 @@
     "municipality": "",
     "countryRegion": "",
     "postalCity": "",
-    "postalCode": null
+    "postalCode": null,
+    "country": "NO"
   },
   {
     "storeNo": 300,
@@ -3598,7 +3857,8 @@
     "municipality": "TØNSBERG",
     "countryRegion": "Østlandet",
     "postalCity": "REVETAL",
-    "postalCode": 3174
+    "postalCode": 3174,
+    "country": "NO"
   },
   {
     "storeNo": 323,
@@ -3611,7 +3871,8 @@
     "municipality": "GRAN",
     "countryRegion": "Østlandet",
     "postalCity": "BRANDBU",
-    "postalCode": 2760
+    "postalCode": 2760,
+    "country": "NO"
   },
   {
     "storeNo": 386,
@@ -3624,7 +3885,8 @@
     "municipality": "DRAMMEN",
     "countryRegion": "Østlandet",
     "postalCity": "MJØNDALEN",
-    "postalCode": 3050
+    "postalCode": 3050,
+    "country": "NO"
   },
   {
     "storeNo": 324,
@@ -3637,7 +3899,8 @@
     "municipality": "BÆRUM",
     "countryRegion": "Østlandet",
     "postalCity": "SANDVIKA",
-    "postalCode": 1337
+    "postalCode": 1337,
+    "country": "NO"
   },
   {
     "storeNo": 325,
@@ -3650,7 +3913,8 @@
     "municipality": "HEIM",
     "countryRegion": "Trøndelag",
     "postalCity": "KYRKSÆTERØRA",
-    "postalCode": 7200
+    "postalCode": 7200,
+    "country": "NO"
   },
   {
     "storeNo": 326,
@@ -3663,7 +3927,8 @@
     "municipality": "FREDRIKSTAD",
     "countryRegion": "Østlandet",
     "postalCity": "GRESSVIK",
-    "postalCode": 1624
+    "postalCode": 1624,
+    "country": "NO"
   },
   {
     "storeNo": 327,
@@ -3676,7 +3941,8 @@
     "municipality": "ARENDAL",
     "countryRegion": "Sørlandet",
     "postalCity": "ARENDAL",
-    "postalCode": 4841
+    "postalCode": 4841,
+    "country": "NO"
   },
   {
     "storeNo": 390,
@@ -3689,7 +3955,8 @@
     "municipality": "TRONDHEIM",
     "countryRegion": "Trøndelag",
     "postalCity": "FLATÅSEN",
-    "postalCode": 7079
+    "postalCode": 7079,
+    "country": "NO"
   },
   {
     "storeNo": 329,
@@ -3702,7 +3969,8 @@
     "municipality": "MALVIK",
     "countryRegion": "Trøndelag",
     "postalCity": "HOMMELVIK",
-    "postalCode": 7550
+    "postalCode": 7550,
+    "country": "NO"
   },
   {
     "storeNo": 330,
@@ -3715,7 +3983,8 @@
     "municipality": "SYKKYLVEN",
     "countryRegion": "Vestlandet",
     "postalCity": "SYKKYLVEN",
-    "postalCode": 6230
+    "postalCode": 6230,
+    "country": "NO"
   },
   {
     "storeNo": 332,
@@ -3728,7 +3997,8 @@
     "municipality": "ÅLESUND",
     "countryRegion": "Vestlandet",
     "postalCity": "ÅLESUND",
-    "postalCode": 6018
+    "postalCode": 6018,
+    "country": "NO"
   },
   {
     "storeNo": 333,
@@ -3741,7 +4011,8 @@
     "municipality": "MIDTRE GAULDAL",
     "countryRegion": "Trøndelag",
     "postalCity": "STØREN",
-    "postalCode": 7290
+    "postalCode": 7290,
+    "country": "NO"
   },
   {
     "storeNo": 56,
@@ -3754,7 +4025,8 @@
     "municipality": "BJØRNAFJORDEN",
     "countryRegion": "Vestlandet",
     "postalCity": "OS",
-    "postalCode": 5210
+    "postalCode": 5210,
+    "country": "NO"
   },
   {
     "storeNo": 340,
@@ -3767,7 +4039,8 @@
     "municipality": "LOM",
     "countryRegion": "Østlandet",
     "postalCity": "LOM",
-    "postalCode": 2686
+    "postalCode": 2686,
+    "country": "NO"
   },
   {
     "storeNo": 346,
@@ -3780,7 +4053,8 @@
     "municipality": "GAUSDAL",
     "countryRegion": "Østlandet",
     "postalCity": "ØSTRE GAUSDAL",
-    "postalCode": 2651
+    "postalCode": 2651,
+    "country": "NO"
   },
   {
     "storeNo": 353,
@@ -3793,7 +4067,8 @@
     "municipality": "BÆRUM",
     "countryRegion": "Østlandet",
     "postalCity": "ØSTERÅS",
-    "postalCode": 1361
+    "postalCode": 1361,
+    "country": "NO"
   },
   {
     "storeNo": 350,
@@ -3806,7 +4081,8 @@
     "municipality": "LUNNER",
     "countryRegion": "Østlandet",
     "postalCity": "ROA",
-    "postalCode": 2740
+    "postalCode": 2740,
+    "country": "NO"
   },
   {
     "storeNo": 57,
@@ -3819,7 +4095,8 @@
     "municipality": "ALTA",
     "countryRegion": "Nord-Norge",
     "postalCity": "ALTA",
-    "postalCode": 9515
+    "postalCode": 9515,
+    "country": "NO"
   },
   {
     "storeNo": 347,
@@ -3832,7 +4109,8 @@
     "municipality": "HARAM",
     "countryRegion": "Vestlandet",
     "postalCity": "VATNE",
-    "postalCode": 6265
+    "postalCode": 6265,
+    "country": "NO"
   },
   {
     "storeNo": 577,
@@ -3845,7 +4123,8 @@
     "municipality": "KLEPP",
     "countryRegion": "Vestlandet",
     "postalCity": "KLEPPE",
-    "postalCode": 4352
+    "postalCode": 4352,
+    "country": "NO"
   },
   {
     "storeNo": 349,
@@ -3858,7 +4137,8 @@
     "municipality": "INDRE FOSEN",
     "countryRegion": "Trøndelag",
     "postalCity": "RISSA",
-    "postalCode": 7100
+    "postalCode": 7100,
+    "country": "NO"
   },
   {
     "storeNo": 360,
@@ -3871,7 +4151,8 @@
     "municipality": "AVERØY",
     "countryRegion": "Vestlandet",
     "postalCity": "AVERØY",
-    "postalCode": 6530
+    "postalCode": 6530,
+    "country": "NO"
   },
   {
     "storeNo": 58,
@@ -3884,7 +4165,8 @@
     "municipality": "KARMØY",
     "countryRegion": "Vestlandet",
     "postalCity": "KOPERVIK",
-    "postalCode": 4250
+    "postalCode": 4250,
+    "country": "NO"
   },
   {
     "storeNo": 603,
@@ -3897,7 +4179,8 @@
     "municipality": "VOSS",
     "countryRegion": "Vestlandet",
     "postalCity": "VOSS",
-    "postalCode": 5705
+    "postalCode": 5705,
+    "country": "NO"
   },
   {
     "storeNo": 606,
@@ -3910,7 +4193,8 @@
     "municipality": "KONGSBERG",
     "countryRegion": "Østlandet",
     "postalCity": "KONGSBERG",
-    "postalCode": 3602
+    "postalCode": 3602,
+    "country": "NO"
   },
   {
     "storeNo": 489,
@@ -3923,7 +4207,8 @@
     "municipality": "ORKLAND",
     "countryRegion": "Trøndelag",
     "postalCity": "ORKANGER",
-    "postalCode": 7300
+    "postalCode": 7300,
+    "country": "NO"
   },
   {
     "storeNo": 192,
@@ -3936,7 +4221,8 @@
     "municipality": "KINN",
     "countryRegion": "Vestlandet",
     "postalCity": "FLORØ",
-    "postalCode": 6900
+    "postalCode": 6900,
+    "country": "NO"
   },
   {
     "storeNo": 437,
@@ -3949,7 +4235,8 @@
     "municipality": "GRIMSTAD",
     "countryRegion": "Sørlandet",
     "postalCity": "GRIMSTAD",
-    "postalCode": 4886
+    "postalCode": 4886,
+    "country": "NO"
   },
   {
     "storeNo": 592,
@@ -3962,7 +4249,8 @@
     "municipality": "MÅLSELV",
     "countryRegion": "Nord-Norge",
     "postalCity": "BARDUFOSS",
-    "postalCode": 9325
+    "postalCode": 9325,
+    "country": "NO"
   },
   {
     "storeNo": 609,
@@ -3975,7 +4263,8 @@
     "municipality": "MELHUS",
     "countryRegion": "Trøndelag",
     "postalCity": "MELHUS",
-    "postalCode": 7224
+    "postalCode": 7224,
+    "country": "NO"
   },
   {
     "storeNo": 573,
@@ -3988,7 +4277,8 @@
     "municipality": "STAVANGER",
     "countryRegion": "Vestlandet",
     "postalCity": "STAVANGER",
-    "postalCode": 4017
+    "postalCode": 4017,
+    "country": "NO"
   },
   {
     "storeNo": 344,
@@ -4001,7 +4291,8 @@
     "municipality": "ARENDAL",
     "countryRegion": "Sørlandet",
     "postalCity": "ARENDAL",
-    "postalCode": 4848
+    "postalCode": 4848,
+    "country": "NO"
   },
   {
     "storeNo": 614,
@@ -4014,7 +4305,8 @@
     "municipality": "TØNSBERG",
     "countryRegion": "Østlandet",
     "postalCity": "TØNSBERG",
-    "postalCode": 3117
+    "postalCode": 3117,
+    "country": "NO"
   },
   {
     "storeNo": 199,
@@ -4027,7 +4319,8 @@
     "municipality": "FROGN",
     "countryRegion": "Østlandet",
     "postalCity": "DRØBAK",
-    "postalCode": 1448
+    "postalCode": 1448,
+    "country": "NO"
   },
   {
     "storeNo": 506,
@@ -4040,7 +4333,8 @@
     "municipality": "ØRLAND",
     "countryRegion": "Trøndelag",
     "postalCity": "BJUGN",
-    "postalCode": 7160
+    "postalCode": 7160,
+    "country": "NO"
   },
   {
     "storeNo": 465,
@@ -4053,7 +4347,8 @@
     "municipality": "SURNADAL",
     "countryRegion": "Vestlandet",
     "postalCity": "SURNADAL",
-    "postalCode": 6650
+    "postalCode": 6650,
+    "country": "NO"
   },
   {
     "storeNo": 484,
@@ -4066,7 +4361,8 @@
     "municipality": "STAD",
     "countryRegion": "Vestlandet",
     "postalCity": "NORDFJORDEID",
-    "postalCode": 6770
+    "postalCode": 6770,
+    "country": "NO"
   },
   {
     "storeNo": 488,
@@ -4079,7 +4375,8 @@
     "municipality": "HAUGESUND",
     "countryRegion": "Vestlandet",
     "postalCity": "HAUGESUND",
-    "postalCode": 5516
+    "postalCode": 5516,
+    "country": "NO"
   },
   {
     "storeNo": 445,
@@ -4092,7 +4389,8 @@
     "municipality": "SELJORD",
     "countryRegion": "Østlandet",
     "postalCity": "SELJORD",
-    "postalCode": 3840
+    "postalCode": 3840,
+    "country": "NO"
   },
   {
     "storeNo": 599,
@@ -4105,7 +4403,8 @@
     "municipality": "TYNSET",
     "countryRegion": "Østlandet",
     "postalCity": "TYNSET",
-    "postalCode": 2500
+    "postalCode": 2500,
+    "country": "NO"
   },
   {
     "storeNo": 850,
@@ -4118,7 +4417,8 @@
     "municipality": "",
     "countryRegion": "",
     "postalCity": "",
-    "postalCode": null
+    "postalCode": null,
+    "country": "NO"
   },
   {
     "storeNo": 137,
@@ -4131,7 +4431,8 @@
     "municipality": "",
     "countryRegion": "Østlandet",
     "postalCity": "",
-    "postalCode": null
+    "postalCode": null,
+    "country": "NO"
   },
   {
     "storeNo": 42,
@@ -4144,7 +4445,8 @@
     "municipality": "",
     "countryRegion": "Østlandet",
     "postalCity": "",
-    "postalCode": null
+    "postalCode": null,
+    "country": "NO"
   },
   {
     "storeNo": 269,
@@ -4157,7 +4459,8 @@
     "municipality": "",
     "countryRegion": "Østlandet",
     "postalCity": "",
-    "postalCode": null
+    "postalCode": null,
+    "country": "NO"
   },
   {
     "storeNo": 210,
@@ -4170,7 +4473,8 @@
     "municipality": "",
     "countryRegion": "Østlandet",
     "postalCity": "",
-    "postalCode": null
+    "postalCode": null,
+    "country": "NO"
   },
   {
     "storeNo": 355,
@@ -4183,7 +4487,8 @@
     "municipality": "",
     "countryRegion": "Vestlandet",
     "postalCity": "",
-    "postalCode": null
+    "postalCode": null,
+    "country": "NO"
   },
   {
     "storeNo": 25,
@@ -4196,7 +4501,8 @@
     "municipality": "",
     "countryRegion": "Vestlandet",
     "postalCity": "",
-    "postalCode": null
+    "postalCode": null,
+    "country": "NO"
   },
   {
     "storeNo": 29,
@@ -4209,6 +4515,759 @@
     "municipality": "",
     "countryRegion": "Sørlandet",
     "postalCity": "",
-    "postalCode": null
+    "postalCode": null,
+    "country": "NO"
+  },
+  {
+    "latitude": "57.76816115119195",
+    "longitude": "14.173067112463958",
+    "name": "Jönköping",
+    "storeNo": 68,
+    "CITY": "Jönköping",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.218271097731",
+    "longitude": "15.142725326065396",
+    "name": "Örebro, Marieberg ",
+    "storeNo": 183,
+    "CITY": "Örebro",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.11138377321873",
+    "longitude": "16.206661831986654",
+    "name": "Katrineholm",
+    "storeNo": 147,
+    "CITY": "Katrineholm",
+    "country": "SE"
+  },
+  {
+    "latitude": "65.5172613147506",
+    "longitude": "21.47558872360597",
+    "name": "Piteå",
+    "storeNo": 129,
+    "CITY": "Piteå",
+    "country": "SE"
+  },
+  {
+    "latitude": "56.08895874441531",
+    "longitude": "14.15306882427046",
+    "name": "Kristianstad",
+    "storeNo": 107,
+    "CITY": "Kristianstad",
+    "country": "SE"
+  },
+  {
+    "latitude": "56.67730425450927",
+    "longitude": "12.802922324612366",
+    "name": "Halmstad",
+    "storeNo": 74,
+    "CITY": "Halmstad",
+    "country": "SE"
+  },
+  {
+    "latitude": "60.251678695368064",
+    "longitude": "18.349236933859174",
+    "name": "Östhammar",
+    "storeNo": 192,
+    "CITY": "Östhammar",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.46029316747514",
+    "longitude": "18.136058610743166",
+    "name": "Stockholm, Arninge",
+    "storeNo": 175,
+    "CITY": "Täby",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.88698344701064",
+    "longitude": "17.669916439609924",
+    "name": "Uppsala, Gränby",
+    "storeNo": 179,
+    "CITY": "Uppsala",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.65347111068275",
+    "longitude": "17.07787878930362",
+    "name": "Enköping",
+    "storeNo": 32,
+    "CITY": "Enköping",
+    "country": "SE"
+  },
+  {
+    "latitude": "55.5874620725458",
+    "longitude": "13.00436674099011",
+    "name": "Malmö, Mobilia",
+    "storeNo": 189,
+    "CITY": "Malmö",
+    "country": "SE"
+  },
+  {
+    "latitude": "55.59838064527674",
+    "longitude": "13.094661881627289",
+    "name": "Malmö, Toftanäs",
+    "storeNo": 171,
+    "CITY": "Malmö",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.64144424395426",
+    "longitude": "15.945385333433663",
+    "name": "Köping",
+    "storeNo": 203,
+    "CITY": "Köping",
+    "country": "SE"
+  },
+  {
+    "latitude": "56.881236391494475",
+    "longitude": "14.7836508817192",
+    "name": "Växjö",
+    "storeNo": 38,
+    "CITY": "Växjö",
+    "country": "SE"
+  },
+  {
+    "latitude": "58.68434762491894",
+    "longitude": "13.816705139520828",
+    "name": "Mariestad",
+    "storeNo": 169,
+    "CITY": "Mariestad",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.85311325713957",
+    "longitude": "17.686691210772405",
+    "name": "Uppsala",
+    "storeNo": 42,
+    "CITY": "Uppsala",
+    "country": "SE"
+  },
+  {
+    "latitude": "63.162199019846895",
+    "longitude": "14.652236239858071",
+    "name": "Östersund",
+    "storeNo": 64,
+    "CITY": "Östersund",
+    "country": "SE"
+  },
+  {
+    "latitude": "55.83675564641236",
+    "longitude": "13.308464441448576",
+    "name": "Eslöv",
+    "storeNo": 111,
+    "CITY": "Eslöv",
+    "country": "SE"
+  },
+  {
+    "latitude": "58.412532619109285",
+    "longitude": "13.878420576294932",
+    "name": "Skövde",
+    "storeNo": 92,
+    "CITY": "Skövde",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.39570698990046",
+    "longitude": "15.889838739573388",
+    "name": "Arboga",
+    "storeNo": 18,
+    "CITY": "Arboga",
+    "country": "SE"
+  },
+  {
+    "latitude": "58.61392523731703",
+    "longitude": "15.040381446009217",
+    "name": "Motala",
+    "storeNo": 145,
+    "CITY": "Motala",
+    "country": "SE"
+  },
+  {
+    "latitude": "56.312030371976604",
+    "longitude": "12.888369889757392",
+    "name": "Ängelholm",
+    "storeNo": 157,
+    "CITY": "Ängelholm",
+    "country": "SE"
+  },
+  {
+    "latitude": "63.30305072137487",
+    "longitude": "18.738826955209085",
+    "name": "Örnsköldsvik",
+    "storeNo": 54,
+    "CITY": "Örnsköldsvik",
+    "country": "SE"
+  },
+  {
+    "latitude": "57.49129193916946",
+    "longitude": "15.065566520374452",
+    "name": "Vetlanda",
+    "storeNo": 141,
+    "CITY": "Vetlanda",
+    "country": "SE"
+  },
+  {
+    "latitude": "61.73795839896839",
+    "longitude": "17.10349384159454",
+    "name": "Hudiksvall",
+    "storeNo": 119,
+    "CITY": "Hudiksvall",
+    "country": "SE"
+  },
+  {
+    "latitude": "55.71528920188945",
+    "longitude": "13.15257438163562",
+    "name": "Lund",
+    "storeNo": 115,
+    "CITY": "Lund",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.60850812592715",
+    "longitude": "16.618390410754166",
+    "name": "Västerås, Hälla",
+    "storeNo": 52,
+    "CITY": "Västerås",
+    "country": "SE"
+  },
+  {
+    "latitude": "56.09824339545497",
+    "longitude": "12.763097652056747",
+    "name": "Helsingborg Väla",
+    "storeNo": 197,
+    "CITY": "Ödåkra",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.75088911677938",
+    "longitude": "18.69412422795026",
+    "name": "Norrtälje",
+    "storeNo": 76,
+    "CITY": "Norrtälje",
+    "country": "SE"
+  },
+  {
+    "latitude": "58.74603102469583",
+    "longitude": "16.99626464563902",
+    "name": "Nyköping",
+    "storeNo": 34,
+    "CITY": "Nyköping",
+    "country": "SE"
+  },
+  {
+    "latitude": "57.93984167348827",
+    "longitude": "12.529218381796127",
+    "name": "Alingsås",
+    "storeNo": 93,
+    "CITY": "Alingsås",
+    "country": "SE"
+  },
+  {
+    "latitude": "57.19437785919477",
+    "longitude": "12.250589283305116",
+    "name": "Varberg",
+    "storeNo": 143,
+    "CITY": "Varberg",
+    "country": "SE"
+  },
+  {
+    "latitude": "58.595251817455164",
+    "longitude": "16.15595917446301",
+    "name": "Norrköping",
+    "storeNo": 36,
+    "CITY": "Norrköping",
+    "country": "SE"
+  },
+  {
+    "latitude": "60.47959922334066",
+    "longitude": "15.418389239654264",
+    "name": "Borlänge",
+    "storeNo": 56,
+    "CITY": "Borlänge",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.5050184659815",
+    "longitude": "17.90411475199367",
+    "name": "Stockholm, Rotebro",
+    "storeNo": 186,
+    "CITY": "Sollentuna",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.245418794629245",
+    "longitude": "18.089153810012228",
+    "name": "Stockholm, Farsta",
+    "storeNo": 188,
+    "CITY": "Farsta",
+    "country": "SE"
+  },
+  {
+    "latitude": "57.7419077766335",
+    "longitude": "12.0085740848306",
+    "name": "Göteborg, Gamlestaden",
+    "storeNo": 105,
+    "CITY": "Göteborg",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.066236031271586",
+    "longitude": "11.212026265872069",
+    "name": "Nordby",
+    "storeNo": 193,
+    "CITY": "Strömstad",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.358995705166706",
+    "longitude": "17.87496862238521",
+    "name": "Stockholm, Vällingby",
+    "storeNo": 86,
+    "CITY": "Vällingby",
+    "country": "SE"
+  },
+  {
+    "latitude": "60.639961400589385",
+    "longitude": "17.144388240244147",
+    "name": "Gävle",
+    "storeNo": 91,
+    "CITY": "Gävle",
+    "country": "SE"
+  },
+  {
+    "latitude": "65.61715293186478",
+    "longitude": "22.05239676646073",
+    "name": "Luleå",
+    "storeNo": 24,
+    "CITY": "Luleå",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.486978570212564",
+    "longitude": "18.27449715492033",
+    "name": "Stockholm, Åkersberga",
+    "storeNo": 187,
+    "CITY": "Åkersberga",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.33489468495783",
+    "longitude": "18.034543626074004",
+    "name": "Stockholm, Kungsholmen",
+    "storeNo": 165,
+    "CITY": "Stockholm",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.175998912383164",
+    "longitude": "18.144310809454645",
+    "name": "Stockholm, Haninge",
+    "storeNo": 95,
+    "CITY": "Handen",
+    "country": "SE"
+  },
+  {
+    "latitude": "57.757685992874876",
+    "longitude": "14.701650998273948",
+    "name": "Nässjö",
+    "storeNo": 125,
+    "CITY": "Nässjö",
+    "country": "SE"
+  },
+  {
+    "latitude": "56.20492842916147",
+    "longitude": "15.638675325845796",
+    "name": "Karlskrona",
+    "storeNo": 80,
+    "CITY": "Karlskrona",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.508571553655166",
+    "longitude": "17.85332254039751",
+    "name": "Stockholm, Barkarby",
+    "storeNo": 137,
+    "CITY": "Järfälla",
+    "country": "SE"
+  },
+  {
+    "latitude": "60.60537802423592",
+    "longitude": "15.6660072396637",
+    "name": "Falun",
+    "storeNo": 60,
+    "CITY": "Falun",
+    "country": "SE"
+  },
+  {
+    "latitude": "60.86609638408787",
+    "longitude": "16.734920992812153",
+    "name": "Sandviken",
+    "storeNo": 109,
+    "CITY": "Sandviken",
+    "country": "SE"
+  },
+  {
+    "latitude": "56.73535714777623",
+    "longitude": "15.93427948539933",
+    "name": "Nybro",
+    "storeNo": 84,
+    "CITY": "Nybro",
+    "country": "SE"
+  },
+  {
+    "latitude": "61.29430046936528",
+    "longitude": "17.01805833729245",
+    "name": "Söderhamn",
+    "storeNo": 94,
+    "CITY": "Söderhamn",
+    "country": "SE"
+  },
+  {
+    "latitude": "57.56522126829006",
+    "longitude": "12.074812547775437",
+    "name": "Kungsbacka",
+    "storeNo": 135,
+    "CITY": "Kungsbacka",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.32735569102392",
+    "longitude": "14.536920912578612",
+    "name": "Karlskoga",
+    "storeNo": 167,
+    "CITY": "Karlskoga",
+    "country": "SE"
+  },
+  {
+    "latitude": "56.40675879864462",
+    "longitude": "13.775630453400241",
+    "name": "Hässleholm",
+    "storeNo": 131,
+    "CITY": "Hässleholm",
+    "country": "SE"
+  },
+  {
+    "latitude": "58.4335295",
+    "longitude": "15.6047523",
+    "name": "Linköping, Tornby",
+    "storeNo": 14,
+    "CITY": "Linköping",
+    "country": "SE"
+  },
+  {
+    "latitude": "58.45335004766193",
+    "longitude": "15.106299408500945",
+    "name": "Skänninge",
+    "storeNo": 149,
+    "CITY": "Skänninge",
+    "country": "SE"
+  },
+  {
+    "latitude": "61.005678512601534",
+    "longitude": "14.60386511325173",
+    "name": "Mora",
+    "storeNo": 121,
+    "CITY": "Mora",
+    "country": "SE"
+  },
+  {
+    "latitude": "55.87355207451977",
+    "longitude": "12.85876599698707",
+    "name": "Landskrona",
+    "storeNo": 78,
+    "CITY": "Landskrona",
+    "country": "SE"
+  },
+  {
+    "latitude": "67.844978549084",
+    "longitude": "20.249910979908645",
+    "name": "Kiruna",
+    "storeNo": 99,
+    "CITY": "Kiruna",
+    "country": "SE"
+  },
+  {
+    "latitude": "57.63020923059603",
+    "longitude": "18.289012181773522",
+    "name": "Visby",
+    "storeNo": 88,
+    "CITY": "Visby",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.33013665004986",
+    "longitude": "18.057431832915466",
+    "name": "Stockholm, Hornsgatan",
+    "storeNo": 200,
+    "CITY": "Stockholm",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.49321752729529",
+    "longitude": "13.640236642097731",
+    "name": "Karlstad, Välsviken",
+    "storeNo": 199,
+    "CITY": "Karlstad",
+    "country": "SE"
+  },
+  {
+    "latitude": "55.60602135645756",
+    "longitude": "13.462276141422256",
+    "name": "Skurup",
+    "storeNo": 207,
+    "CITY": "Skurup",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.427378629058786",
+    "longitude": "13.206565797245855",
+    "name": "Edsvalla",
+    "storeNo": 58,
+    "CITY": "Edsvalla",
+    "country": "SE"
+  },
+  {
+    "latitude": "63.8526192772661",
+    "longitude": "20.318204361008984",
+    "name": "Umeå",
+    "storeNo": 87,
+    "CITY": "Umeå",
+    "country": "SE"
+  },
+  {
+    "latitude": "58.49590264236699",
+    "longitude": "13.18314111067191",
+    "name": "Lidköping",
+    "storeNo": 113,
+    "CITY": "Lidköping",
+    "country": "SE"
+  },
+  {
+    "latitude": "55.437053291562556",
+    "longitude": "13.793511668120951",
+    "name": "Ystad",
+    "storeNo": 82,
+    "CITY": "Ystad",
+    "country": "SE"
+  },
+  {
+    "latitude": "57.70947306170464",
+    "longitude": "11.922758508548256",
+    "name": "Frölunda",
+    "storeNo": 204,
+    "CITY": "Västra Frölunda",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.33900927930409",
+    "longitude": "17.02013791587633",
+    "name": "Strängnäs",
+    "storeNo": 96,
+    "CITY": "Strängnäs",
+    "country": "SE"
+  },
+  {
+    "latitude": "58.084625087300395",
+    "longitude": "14.950276936834461",
+    "name": "Tranås",
+    "storeNo": 155,
+    "CITY": "Tranås",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.394235859470015",
+    "longitude": "12.139554770253628",
+    "name": "Årjäng",
+    "storeNo": 22,
+    "CITY": "Årjäng",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.269170781316824",
+    "longitude": "17.919576371113187",
+    "name": "Stockholm, Kungens Kurva",
+    "storeNo": 178,
+    "CITY": "Kungens kurva",
+    "country": "SE"
+  },
+  {
+    "latitude": "58.414775384145365",
+    "longitude": "15.62795426677881",
+    "name": "Linköping City",
+    "storeNo": 195,
+    "CITY": "Linköping",
+    "country": "SE"
+  },
+  {
+    "latitude": "64.76487354683758",
+    "longitude": "21.02413897124037",
+    "name": "Skellefteå",
+    "storeNo": 66,
+    "CITY": "Skellefteå",
+    "country": "SE"
+  },
+  {
+    "latitude": "56.62934850942769",
+    "longitude": "16.51398918170106",
+    "name": "Öland",
+    "storeNo": 28,
+    "CITY": "Färjestaden",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.203150204167535",
+    "longitude": "17.667091586157465",
+    "name": "Södertälje",
+    "storeNo": 30,
+    "CITY": "Södertälje",
+    "country": "SE"
+  },
+  {
+    "latitude": "62.44298386317509",
+    "longitude": "17.332270788525072",
+    "name": "Sundsvall",
+    "storeNo": 20,
+    "CITY": "Sundsvall",
+    "country": "SE"
+  },
+  {
+    "latitude": "60.00853899139121",
+    "longitude": "12.261865995629321",
+    "name": "Charlottenberg",
+    "storeNo": 133,
+    "CITY": "Charlottenberg",
+    "country": "SE"
+  },
+  {
+    "latitude": "56.234354286915504",
+    "longitude": "15.263152597012903",
+    "name": "Ronneby",
+    "storeNo": 98,
+    "CITY": "Ronneby",
+    "country": "SE"
+  },
+  {
+    "latitude": "58.318093238490384",
+    "longitude": "12.300469783330758",
+    "name": "Trollhättan",
+    "storeNo": 46,
+    "CITY": "Trollhättan",
+    "country": "SE"
+  },
+  {
+    "latitude": "58.15203659931381",
+    "longitude": "13.559065355399772",
+    "name": "Falköping",
+    "storeNo": 123,
+    "CITY": "Falköping",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.6136465333678",
+    "longitude": "16.464539403396024",
+    "name": "Västerås, Erikslund",
+    "storeNo": 177,
+    "CITY": "Västerås",
+    "country": "SE"
+  },
+  {
+    "latitude": "57.72453483064831",
+    "longitude": "11.946887666440276",
+    "name": "Göteborg, Backaplan",
+    "storeNo": 16,
+    "CITY": "Göteborg",
+    "country": "SE"
+  },
+  {
+    "latitude": "57.726703434489835",
+    "longitude": "15.84465721824286",
+    "name": "Vimmerby",
+    "storeNo": 161,
+    "CITY": "Vimmerby",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.26597886886968",
+    "longitude": "15.23341186839883",
+    "name": "Örebro, Österplan",
+    "storeNo": 44,
+    "CITY": "Örebro",
+    "country": "SE"
+  },
+  {
+    "latitude": "56.80058100796066",
+    "longitude": "16.349967612517236",
+    "name": "Kalmar",
+    "storeNo": 205,
+    "CITY": "Kalmar",
+    "country": "SE"
+  },
+  {
+    "latitude": "60.15163457814888",
+    "longitude": "16.19582980828827",
+    "name": "Avesta",
+    "storeNo": 103,
+    "CITY": "Avesta",
+    "country": "SE"
+  },
+  {
+    "latitude": "57.77937311113236",
+    "longitude": "12.933500977484194",
+    "name": "Borås",
+    "storeNo": 206,
+    "CITY": "Borås",
+    "country": "SE"
+  },
+  {
+    "latitude": "57.64087680975671",
+    "longitude": "11.958883052361466",
+    "name": "Göteborg, Askim",
+    "storeNo": 50,
+    "CITY": "Askim",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.56577892324336",
+    "longitude": "18.07149160006001",
+    "name": "Stockholm, Sveavägen",
+    "storeNo": 182,
+    "CITY": "Stockholm",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.38794398548609",
+    "longitude": "16.506609406357626",
+    "name": "Eskilstuna",
+    "storeNo": 70,
+    "CITY": "Eskilstuna",
+    "country": "SE"
+  },
+  {
+    "latitude": "59.62720030375791",
+    "longitude": "17.868331913081292",
+    "name": "Stockholm, Märsta",
+    "storeNo": 201,
+    "CITY": "Stockholm",
+    "country": "SE"
+  },
+  {
+    "latitude": "58.3513894940546",
+    "longitude": "11.848506439496363",
+    "name": "Uddevalla",
+    "storeNo": 26,
+    "CITY": "Uddevalla",
+    "country": "SE"
+  },
+  {
+    "latitude": "55.5676527450929",
+    "longitude": "12.974219730619657",
+    "name": "Malmö, Emporia",
+    "storeNo": 202,
+    "CITY": "Malmö",
+    "country": "SE"
   }
- ]
+]

@@ -6,6 +6,7 @@ import { useState, useEffect } from 'react';
 
 import norwayBorders from '../geoJSON/Norge-S.geojson'
 import stateBorders from '../geoJSON/Fylker-S.geojson'
+import sweden from '../geoJSON/sweden.geojson'
 import storeData from '../data/storeData.json'
 import { warehouseIcon } from '../icons/Icons';
 
@@ -52,13 +53,13 @@ export default function Map() {
                 {/* GeoJSON for land- og fylkesgrenser */}
                 <GeoJSON 
                     className="geojson-norway"
-                    data={[norwayBorders, stateBorders]}
+                    data={[norwayBorders, stateBorders, sweden]}
                 />
 
                     {/* Itererer gjennom alle butikker og lager markører for hver butikk */}
                     {stores.map(store => (
                         <Marker 
-                            key={store.storeNo}              
+                            key={`${store.storeNo}-${store.latitude}-${store.longitude}`}              
                             position={[store.latitude, store.longitude]} 
                             icon={warehouseIcon}               
                         >
@@ -66,6 +67,7 @@ export default function Map() {
                                 <div>
                                     <h3>{store.name}</h3>
                                     <p>Butikknr: {store.storeNo}</p>
+                                    <p>Land: {store.country}</p>
                                 </div>
                             </Popup>
                         </Marker>

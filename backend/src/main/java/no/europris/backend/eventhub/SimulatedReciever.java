@@ -43,6 +43,7 @@ public class SimulatedReciever {
             event.put("receiptTotalIncVat", random.nextInt(1100));
             event.put("transDateTime", time.toString());
             event.put("saleSizeCategory", random.nextInt(4));
+            event.put("COUNTRY_CODE", event.get("storeNo").asInt() < 200 ? "NO" : "SE");
             
             // Sender salget til alle tilkoblede klienter
             messagingTemplate.convertAndSend("/topic/receipts", event);

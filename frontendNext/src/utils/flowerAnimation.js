@@ -10,7 +10,7 @@ import { createFlowerIcon } from '../icons/Icons';
  * 3. Fjerner markøren automatisk etter visning
  * 
  * @param {L.Map} map - Leaflet kartinstansen
- * @param {Object} store - Butikkobjekt med posisjonsinformasjon
+ * @param {Object} store - Butikkobjekt med posisjonsinformasjon og land (NO/SE)
  * @param {number} saleSizeCategory - Kategori for salgsstørrelse (1-3)
  */
 export function createFlowerAnimation(map, store, saleSizeCategory) {

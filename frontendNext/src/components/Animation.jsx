@@ -24,12 +24,13 @@ export default function Animation({ stores }) {
          * @param {Object} event - Salget
          * @param {string} event.storeNo - Butikkens nummer
          * @param {number} event.saleSizeCategory - Kategori for salgsstørrelse (1-3)
+         * @param {string} event.COUNTRY_CODE - Land for butikken
          */
         const handleSale = (event) => {
-            const { storeNo, saleSizeCategory } = event;
+            const { storeNo, saleSizeCategory, COUNTRY_CODE } = event;
             
-            // Finner butikken som mottok salget
-            const store = stores.find(s => s.storeNo == storeNo);
+            // Finner butikken som mottok salget basert på både butikknummer og land
+            const store = stores.find(s => s.storeNo == storeNo && s.country === COUNTRY_CODE);
             if (!store) return;
             
             // Oppretter animasjon på butikkens posisjon
