@@ -12,6 +12,9 @@ import { warehouseIcon } from '../icons/Icons';
 
 import Animation from './Animation';
 import HelpBox from './HelpBox';
+import SalesCounter from './SalesCounter';
+import AreaSelector from './AreaSelector';
+import MapController from './MapController';
 
 /**
  * Map - Hovedkomponent for kartvisningen
@@ -21,16 +24,19 @@ import HelpBox from './HelpBox';
  * - Viser markører for alle butikker
  * - Håndterer sanntids-oppdateringer fra WebSocket
  * - Viser blomsteranimasjoner når butikker mottar salg
+ * - Viser dagens salgstall
  */
 export default function Map() {
+    const [stores, setStores] = useState([]);
+    const [mapCenter, setMapCenter] = useState([65.53, 21.62]);
+    const [mapZoom, setMapZoom] = useState(5);
 
-     // State for å holde styr på butikkene som skal vises på kartet
-     const [stores, setStores] = useState([]);
-    
-    /**
-     * Initialiserer butikklisten ved komponentoppstart
-     * Filtrerer bort butikker uten gyldige koordinater
-     */
+    // Håndterer endring av område
+    const handleAreaChange = (newCenter, newZoom) => {
+        setMapCenter(newCenter);
+        setMapZoom(newZoom);
+    };
+
     useEffect(() => {
         const stores = storeData.filter(store => store.latitude && store.longitude)
         setStores(stores);
@@ -38,13 +44,15 @@ export default function Map() {
 
     return (
         <div className="app-container">
+            <AreaSelector onAreaChange={handleAreaChange} />
             <MapContainer 
                 className="map-container"
-                center={[65.53, 21.62]}
-                zoom={5}
+                center={mapCenter}
+                zoom={mapZoom}
                 scrollWheelZoom={true}
                 minZoom={4}
             >
+                <MapController center={mapCenter} zoom={mapZoom} />
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -57,24 +65,25 @@ export default function Map() {
                 />
 
                     {/* Itererer gjennom alle butikker og lager markører for hver butikk */}
-                    {stores.map(store => (
-                        <Marker 
-                            key={`${store.storeNo}-${store.latitude}-${store.longitude}`}              
-                            position={[store.latitude, store.longitude]} 
-                            icon={warehouseIcon}               
-                        >
-                            <Popup>
-                                <div>
-                                    <h3>{store.name}</h3>
-                                    <p>Butikknr: {store.storeNo}</p>
-                                    <p>Land: {store.country}</p>
-                                </div>
-                            </Popup>
-                        </Marker>
-                    ))}
+                    {stores
+                        .map(store => (
+                            <Marker 
+                                key={`${store.storeNo}-${store.latitude}-${store.longitude}`}              
+                                position={[store.latitude, store.longitude]} 
+                                icon={warehouseIcon}               
+                            >
+                                <Popup>
+                                    <div>
+                                        <h3>{store.name}</h3>
+                                        <p>Butikknr: {store.storeNo}</p>
+                                    </div>
+                                </Popup>
+                            </Marker>
+                        ))}
                 
                 <Animation stores={stores} />
                 <HelpBox />
+                <SalesCounter />
                 <img src="logo.png" alt="Europris logo" className="logo"/>
             </MapContainer>
         </div>
