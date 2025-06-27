@@ -15,14 +15,28 @@ stompClient.onConnect = (frame) => {
     // Logger tilkoblingsinformasjon til nettleserkonsollen
     console.log('Tilkoblet: ' + frame);
     
-    // Abonnerer på events fra Event Hubs
-    // Dette matcher destinasjonen i backend: messagingTemplate.convertAndSend("/topic/receipts", ...)
+    // Abonner på initialverdien
+    stompClient.subscribe('/topic/initial-sales-count', (message) => {
+        const count = JSON.parse(message.body);
+        eventEmitter.emit('dailySales', count);
+    });
+
+    // Abonner på events fra Event Hubs
     stompClient.subscribe('/topic/receipts', (message) => {
         const event = JSON.parse(message.body);
-        
-        // Sender event til alle lyttere (Animation.jsx)
         eventEmitter.emit('sale', event);
     });
+
+    // Abonner på dagens salgstall
+    stompClient.subscribe('/topic/daily-sales', (message) => {
+        const count = JSON.parse(message.body);
+        eventEmitter.emit('dailySales', count);
+    });
+
+    // Be om initialverdi ETTER at subscription er satt opp
+    setTimeout(() => {
+        stompClient.publish({ destination: '/app/get-initial-sales' });
+    }, 200); // 200 ms for å være sikker på at subscription er aktiv
 };
 
 // Håndterer WebSocket-tilkoblingsfeil

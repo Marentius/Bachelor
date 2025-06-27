@@ -2,6 +2,7 @@ package no.europris.backend.eventhub;
 
 import com.azure.messaging.eventhubs.*;
 import com.azure.messaging.eventhubs.models.EventPosition;
+import no.europris.backend.service.SalesCounterService;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
@@ -46,12 +47,15 @@ public class Reciever {
     // Jackson ObjectMapper for JSON-håndtering
     private final ObjectMapper objectMapper = new ObjectMapper();
 
+    private final SalesCounterService salesCounterService;
+
     /**
      * Konstruktør som initialiserer WebSocket-messaging template
      * @param messagingTemplate template'n 
      */
-    public Reciever(SimpMessagingTemplate messagingTemplate) {
+    public Reciever(SimpMessagingTemplate messagingTemplate, SalesCounterService salesCounterService) {
         this.messagingTemplate = messagingTemplate;
+        this.salesCounterService = salesCounterService;
     }
 
     /**
@@ -118,6 +122,9 @@ public class Reciever {
             } else {
                 ((ObjectNode) jsonNode).put("saleSizeCategory", 1);
             }
+
+            // Øker salgstelleren for hvert gyldig salg
+            salesCounterService.incrementSalesCount();
 
             System.out.println("Mottok event med innhold: " + jsonNode.toString());
             messagingTemplate.convertAndSend("/topic/receipts", jsonNode);

@@ -7,6 +7,7 @@ import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
+import no.europris.backend.service.SalesCounterService;
  
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
@@ -16,9 +17,11 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 public class SimulatedReciever {
     private final SimpMessagingTemplate messagingTemplate;
     private final ObjectMapper objectMapper = new ObjectMapper();
+    private final SalesCounterService salesCounterService;
  
-    public SimulatedReciever(SimpMessagingTemplate messagingTemplate) {
+    public SimulatedReciever(SimpMessagingTemplate messagingTemplate, SalesCounterService salesCounterService) {
         this.messagingTemplate = messagingTemplate;
+        this.salesCounterService = salesCounterService;
     }
  
     @Scheduled(fixedDelay = 200) // Kjører hvert 200. millisekund (5 ganger i sekundet)
@@ -44,6 +47,8 @@ public class SimulatedReciever {
             event.put("transDateTime", time.toString());
             event.put("saleSizeCategory", random.nextInt(4));
             event.put("COUNTRY_CODE", event.get("storeNo").asInt() < 200 ? "NO" : "SE");
+
+            salesCounterService.incrementSalesCount();
             
             // Sender salget til alle tilkoblede klienter
             messagingTemplate.convertAndSend("/topic/receipts", event);

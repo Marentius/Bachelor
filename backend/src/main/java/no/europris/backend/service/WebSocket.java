@@ -21,6 +21,7 @@ public class WebSocket implements WebSocketMessageBrokerConfigurer {
     public void configureMessageBroker(@NonNull MessageBrokerRegistry config) {
         // Setter opp en simpel broker som håndterer meldinger med destinasjonen '/topic'
         config.enableSimpleBroker("/topic");
+        config.setApplicationDestinationPrefixes("/app");
     }
 
     /**

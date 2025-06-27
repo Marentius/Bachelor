@@ -4363,7 +4363,7 @@
           "id": "56",
           "name": "Finnmark",
           "fylkesnummer": "56",
-          "fylkesnavn": "Finnmark - Finnmárku - Finmarkku"
+          "fylkesnavn": "Finnmark"
         },
         "geometry": {
           "type": "MultiPolygon",
@@ -14485,7 +14485,7 @@
           "id": "55",
           "name": "Troms",
           "fylkesnummer": "55",
-          "fylkesnavn": "Troms - Romsa - Tromssa"
+          "fylkesnavn": "Troms"
         },
         "geometry": {
           "type": "MultiPolygon",
@@ -45371,7 +45371,7 @@
           "id": "50",
           "name": "Trøndelag",
           "fylkesnummer": "50",
-          "fylkesnavn": "Trøndelag - Trööndelage"
+          "fylkesnavn": "Trøndelag"
         },
         "geometry": {
           "type": "MultiPolygon",
@@ -53137,7 +53137,7 @@
           "id": "18",
           "name": "Nordland",
           "fylkesnummer": "18",
-          "fylkesnavn": "Nordland - Nordlánnda"
+          "fylkesnavn": "Nordland"
         },
         "geometry": {
           "type": "MultiPolygon",
